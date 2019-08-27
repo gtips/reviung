@@ -1,4 +1,4 @@
-update=07/19/19 11:55:17
+update=2019/07/23 15:03:06
 version=1
 last_client=kicad
 [general]
@@ -12,20 +12,10 @@ NetIExt=net
 version=1
 LibDir=
 [eeschema/libraries]
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=Pcbnew
-SpiceAjustPassiveValues=0
-LabSize=50
-ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=reviung39.net
+LastNetListRead=reviung39-top-plate.net
 CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0
@@ -34,7 +24,7 @@ RequireCourtyardDefinitions=0
 ProhibitOverlappingCourtyards=1
 MinTrackWidth=0.1524
 MinViaDiameter=0.5
-MinViaDrill=0.2
+MinViaDrill=0.3
 MinMicroViaDiameter=0.2
 MinMicroViaDrill=0.09999999999999999
 MinHoleToHole=0.3048

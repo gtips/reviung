@@ -25,7 +25,7 @@ ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=reviung39.net
+LastNetListRead=reviung39s.net
 CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0
