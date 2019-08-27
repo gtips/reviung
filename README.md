@@ -10,7 +10,7 @@ Soldering is divided into through-hole mounting version and surface mounting (SM
 - REVIUNG39 is regular version (SMD)  
 - REVIUNG39S is simple version (through-hole)  
 
-
+Both have the same key layout, design and size  
 
 [REVIUNG39 Build guide](https://reviung.com/build-guide/108/)  
 [REVIUNG39S Build guide](https://reviung.com/build-guide/112/)  
