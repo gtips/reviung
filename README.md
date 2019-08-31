@@ -14,7 +14,7 @@ Both have the same key layout, design and size
 
 [REVIUNG39 Build guide](https://reviung.com/build-guide/108/)  
 [REVIUNG39S Build guide](https://reviung.com/build-guide/112/)  
-[Firmware](https://github.com/gtips/qmk_firmware/tree/master/keyboards/reviung39)
+[Firmware](https://github.com/qmk/qmk_firmware/tree/master/keyboards/reviung39)
 
 ### REVIUNG39  
 ![REVIUNG39](https://github.com/gtips/reviung/blob/master/reviung39/image/REVIUNG39-3.jpg)  
