@@ -1,12 +1,13 @@
 EESchema Schematic File Version 4
+LIBS:reviung39s-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Reviung39s"
-Date "2019-07-19"
-Rev "ver.1"
+Date "2019-09-11"
+Rev "1.1"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -1082,7 +1083,7 @@ U 1 1 5D09CA04
 P 2100 2350
 F 0 "U1" H 2100 3387 60  0000 C CNN
 F 1 "ProMicro" H 2100 3281 60  0000 C CNN
-F 2 "_reviung-kbd:ProMicro_v3" H 2200 1300 60  0001 C CNN
+F 2 "_reviung-kbd:ProMicro" H 2200 1300 60  0001 C CNN
 F 3 "" H 2200 1300 60  0000 C CNN
 	1    2100 2350
 	1    0    0    -1  

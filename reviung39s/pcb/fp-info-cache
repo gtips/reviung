@@ -1,4 +1,4 @@
-16090415384937618
+16099836173161153
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -72310,6 +72310,13 @@ MXOnly-LEDONLY-FLIPPED
 2
 2
 _reviung-kbd
+ProMicro
+
+
+0
+24
+24
+_reviung-kbd
 ProMicro_v3
 
 
@@ -72331,12 +72338,40 @@ ResetSW_1side
 2
 2
 _reviung-kbd
+RESET_HOLE
+
+
+0
+0
+0
+_reviung-kbd
 reviung-MX-1U-Hotswap
 
 
 0
 2
 2
+_reviung-kbd
+REVIUNG34-split-BP-L-logo
+
+
+0
+0
+0
+_reviung-kbd
+REVIUNG34-split-BP-R-logo
+
+
+0
+0
+0
+_reviung-kbd
+REVIUNG34-split-PCB-logo
+
+
+0
+0
+0
 _reviung-kbd
 REVIUNG39-B-logo
 
@@ -72372,6 +72407,13 @@ REVIUNG39s-FS-logo
 0
 0
 0
+_reviung-kbd
+RJ45-DS1128-05-S8B8P
+
+
+0
+8
+8
 _reviung-kbd
 StripLED_1side
 
