@@ -33,5 +33,6 @@ Both have the same key layout, design and size
 The REVIUNG34 SPLIT is 34-key split ortholinear keyboard.  
 Use a LAN cable to connect the left and right keyboards.  
 
-Build guide and Firmware is in preparation.  
+[Firmware](https://github.com/gtips/qmk_firmware/tree/master/keyboards/reviung34)  
+Build guide is in preparation.  
 
