@@ -17,7 +17,7 @@ Build guide is in preparation.
 34 Diode (1N4148)  
 34 PCB socket for switches  
 1  Tact switch (reset button)  
-2  Ethernet connector (LCSC part #C86577)  
+2  Ethernet connector (DS1128-05-S8B8P)  
 1  Stabilizer (2u)  
 12 M2 spacer 7mm (metal spacer)  
 24 M2 screw 5mm  
