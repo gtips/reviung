@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew "(5.1.2)-1")
+(kicad_pcb (version 20171130) (host pcbnew "(5.1.2-1)-1")
 
   (general
     (thickness 1.6)
@@ -106,7 +106,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ""))
+      (outputdirectory "gerber-r34b-20191005/"))
   )
 
   (net 0 "")
@@ -727,7 +727,7 @@
   (gr_curve (pts (xy 129.566623 86.46) (xy 129.566623 87.012285) (xy 129.118908 87.46) (xy 128.566623 87.46)) (layer F.Fab) (width 0.1))
   (gr_curve (pts (xy 71.43 87.46) (xy 70.877715 87.46) (xy 70.43 87.012285) (xy 70.43 86.46)) (layer F.Fab) (width 0.1))
 
-  (zone (net 1) (net_name GND) (layer F.Cu) (tstamp 5D6BBBBC) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer F.Cu) (tstamp 5D9808FB) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -854,7 +854,7 @@
       )
     )
   )
-  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 5D6BBBB9) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 5D9808F8) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))

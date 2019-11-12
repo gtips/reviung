@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew "(5.1.2-1)-1")
+(kicad_pcb (version 20171130) (host pcbnew "(5.1.2)-1")
 
   (general
     (thickness 1.6)
@@ -1940,8 +1940,8 @@
     (pad "" np_thru_hole circle (at 2.54 -5.08) (size 3 3) (drill 3) (layers *.Cu *.Mask))
   )
 
-  (gr_text "REVIUNG34 SPLIT rev 1.0\nDesigned by gtips" (at 93 133.5) (layer F.SilkS)
-    (effects (font (size 1.5 1.5) (thickness 0.3)) (justify left))
+  (gr_text "REVIUNG34 SPLIT rev 1.0\nDesigned by gtips" (at 91.5 146.5) (layer F.SilkS)
+    (effects (font (size 0.8 0.8) (thickness 0.15)) (justify left))
   )
   (gr_curve (pts (xy 51.201917 149.980917) (xy 50.543581 149.980917) (xy 50.009914 149.447229) (xy 50.009914 148.788914)) (layer Edge.Cuts) (width 0.1))
   (gr_curve (pts (xy 112.192467 149.239296) (xy 112.192467 149.239296) (xy 111.586883 149.980917) (xy 111.088572 149.980917)) (layer Edge.Cuts) (width 0.1))

@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew "(5.1.2)-1")
+(kicad_pcb (version 20171130) (host pcbnew "(5.1.2-1)-1")
 
   (general
     (thickness 1.6)
@@ -92,7 +92,7 @@
       (psnegative false)
       (psa4output false)
       (plotreference true)
-      (plotvalue true)
+      (plotvalue false)
       (plotinvisibletext false)
       (padsonsilk false)
       (subtractmaskfromsilk false)
@@ -100,7 +100,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "gerber-r34R-20190901/"))
+      (outputdirectory "R34R_v10_20191005/"))
   )
 
   (net 0 "")
@@ -2537,7 +2537,7 @@
   (via (at 71.5 147.5) (size 0.6) (drill 0.3) (layers F.Cu B.Cu) (net 25))
   (via (at 52.5 51.5) (size 0.6) (drill 0.3) (layers F.Cu B.Cu) (net 25))
 
-  (zone (net 25) (net_name GND) (layer F.Cu) (tstamp 5D6BBE19) (hatch edge 0.508)
+  (zone (net 25) (net_name GND) (layer F.Cu) (tstamp 5D980E0F) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -3592,7 +3592,7 @@
       )
     )
   )
-  (zone (net 25) (net_name GND) (layer B.Cu) (tstamp 5D6BBE16) (hatch edge 0.508)
+  (zone (net 25) (net_name GND) (layer B.Cu) (tstamp 5D980E0C) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
