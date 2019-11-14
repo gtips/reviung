@@ -5,7 +5,7 @@ The REVIUNG34 SPLIT is 34-key split ortholinear keyboard.
 Use a LAN cable to connect the left and right keyboards.  
 
 [Firmware](https://github.com/qmk/qmk_firmware/tree/master/keyboards/reviung34)  
-Build guide is in preparation.  
+[Build guide](https://reviung.com/build-guide/278/)  
 
 #### Parts list  
 1  PCB left  
