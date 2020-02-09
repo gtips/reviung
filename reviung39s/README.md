@@ -26,6 +26,9 @@ MX compatible keycap (1U) --- 36
 Keycap (2.25U or 2U) --- 1  
 Keycap (1.25U or 1U) --- 2  
 MicroUSB cable --- 1  
+
+option
+LED Strip(tape) for Underglow (with 6 WS2812B) --- 1  
   
 [Firmware](https://github.com/qmk/qmk_firmware/tree/master/keyboards/reviung39)  
 [Build guide](https://reviung.com/build-guide/112/)  
