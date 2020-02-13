@@ -1,4 +1,4 @@
-# reviung41 Upper-middle-plate  
+# reviung41 lower-middle-plate  
 
 Acrylic thickness is 3mm  
 
