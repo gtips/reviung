@@ -3,6 +3,8 @@
 
 The REVIUNG STAND is Keyboard stand for exclusive use of REVIUNG39 and 41.  
 
+Note: This is still a prototype.  
+
 ## Parts list  
  
 Acrylic Bsse plate (2mm) --- 1  
