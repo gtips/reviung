@@ -20,9 +20,13 @@ M2 Spacer (3mm) --- 4 pieces
 Build guide  
 in preparation   
   
+#### Tilt 5 degrees when the legs are folded  
+  
 ![REVIUNG STAND](https://github.com/gtips/reviung/blob/master/reviung-stand/image/r-st-02.jpg)  
   
 ![REVIUNG STAND](https://github.com/gtips/reviung/blob/master/reviung-stand/image/r-st-03.jpg)  
+  
+#### Keyboard stand  
 
 ![REVIUNG STAND](https://github.com/gtips/reviung/blob/master/reviung-stand/image/r-st-05.jpg)  
 
