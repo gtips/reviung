@@ -1,7 +1,7 @@
 # REVIUNG61  
 ![REVIUNG61](https://github.com/gtips/reviung/blob/master/reviung61/image/reviung61-pcb.jpg)  
 
-Standard ANSI 60% keyboard. And compatible with both MX compatible and ALPS compatible  
+Standard ANSI 60% keyboard. And compatible with MX and ALPS.  
 
 ## Parts list  
 
