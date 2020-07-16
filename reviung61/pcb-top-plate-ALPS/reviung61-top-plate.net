@@ -1,0 +1,41 @@
+(export (version D)
+  (design
+    (source /Users/masato/git/bitbucket/reviung/reviung61/pcb-top-plate-rev001/reviung61-top-plate.sch)
+    (date "2020 July 07, Tuesday 13:25:39")
+    (tool "Eeschema (5.1.6-0-10_14)")
+    (sheet (number 1) (name /) (tstamps /)
+      (title_block
+        (title)
+        (company)
+        (rev)
+        (date)
+        (source reviung61-top-plate.sch)
+        (comment (number 1) (value ""))
+        (comment (number 2) (value ""))
+        (comment (number 3) (value ""))
+        (comment (number 4) (value "")))))
+  (components
+    (comp (ref H1)
+      (value MountingHole)
+      (footprint _reviung-kbd:HOLE_4.2mm)
+      (datasheet ~)
+      (libsource (lib Mechanical) (part MountingHole_Pad) (description "Mounting Hole with connection"))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5F182E76)))
+  (libparts
+    (libpart (lib Mechanical) (part MountingHole_Pad)
+      (description "Mounting Hole with connection")
+      (docs ~)
+      (footprints
+        (fp MountingHole*Pad*))
+      (fields
+        (field (name Reference) H)
+        (field (name Value) MountingHole_Pad))
+      (pins
+        (pin (num 1) (name 1) (type input)))))
+  (libraries
+    (library (logical Mechanical)
+      (uri "/Library/Application Support/kicad/library/Mechanical.lib")))
+  (nets
+    (net (code 1) (name GND)
+      (node (ref H1) (pin 1)))))

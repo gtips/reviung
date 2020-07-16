@@ -1,0 +1,60 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:PWR_FLAG #FLG01
+U 1 1 5F181B6A
+P 1050 1000
+F 0 "#FLG01" H 1050 1075 50  0001 C CNN
+F 1 "PWR_FLAG" H 1050 1173 50  0000 C CNN
+F 2 "" H 1050 1000 50  0001 C CNN
+F 3 "~" H 1050 1000 50  0001 C CNN
+	1    1050 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG02
+U 1 1 5F181BFD
+P 1450 1000
+F 0 "#FLG02" H 1450 1075 50  0001 C CNN
+F 1 "PWR_FLAG" H 1450 1173 50  0000 C CNN
+F 2 "" H 1450 1000 50  0001 C CNN
+F 3 "~" H 1450 1000 50  0001 C CNN
+	1    1450 1000
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR01
+U 1 1 5F181D0D
+P 1050 1000
+F 0 "#PWR01" H 1050 750 50  0001 C CNN
+F 1 "GND" H 1055 827 50  0000 C CNN
+F 2 "" H 1050 1000 50  0001 C CNN
+F 3 "" H 1050 1000 50  0001 C CNN
+	1    1050 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR02
+U 1 1 5F181E60
+P 1450 1000
+F 0 "#PWR02" H 1450 850 50  0001 C CNN
+F 1 "VCC" H 1465 1173 50  0000 C CNN
+F 2 "" H 1450 1000 50  0001 C CNN
+F 3 "" H 1450 1000 50  0001 C CNN
+	1    1450 1000
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
