@@ -12,14 +12,17 @@ The REVIUNG41 is 41-key column staggered keyboard.
 <br>
   
 ## REVIUNG39 Mk-II, REVIUNG39 and REVIUNG39S
+REVIUNG39 Mk-II  
 [![REVIUNG39 Mk-II ](https://github.com/gtips/reviung/blob/master/reviung39Mk-II/image/reviung39MkII-01.jpg)](https://github.com/gtips/reviung/tree/master/reviung39Mk-II)  
 
 <br>
 
+REVIUNG39  
 [![REVIUNG39](https://github.com/gtips/reviung/blob/master/reviung39/image/REVIUNG39-1.jpg)](https://github.com/gtips/reviung/tree/master/reviung39)  
 
 <br>
 
+REVIUNG39S  
 [![REVIUNG39](https://github.com/gtips/reviung/blob/master/reviung39s/image/REVIUNG39s-3.jpg)](https://github.com/gtips/reviung/tree/master/reviung39s)  
 
 <br>
