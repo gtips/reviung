@@ -35,7 +35,7 @@ The REVIUNG39 Mk-II is 39-key column staggered keyboard.
 | 1 | MicroUSB cable |  |
   
 [Firmware](https://github.com/qmk/qmk_firmware/tree/master/keyboards/reviung39)  
-[Build guide](https://reviung.com/build-guide/108/)  
+[Build guide](https://reviung.com/build-guide/583/)  
   
 ![REVIUNG39 Mk-II](https://github.com/gtips/reviung/blob/master/reviung39Mk-II/image/reviung39MkII-02.jpg)  
   
