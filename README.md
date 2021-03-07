@@ -29,8 +29,8 @@ Soldering is divided into through-hole mounting version and surface mounting (SM
 
 <br>
 
-[REVIUNG39](https://github.com/gtips/reviung/tree/master/reviung39s)  
-[![REVIUNG39](https://github.com/gtips/reviung/blob/master/reviung39s/image/REVIUNG39s-3.jpg)](https://github.com/gtips/reviung/tree/master/reviung39s)  
+[REVIUNG39s](https://github.com/gtips/reviung/tree/master/reviung39s)  
+[![REVIUNG39s](https://github.com/gtips/reviung/blob/master/reviung39s/image/REVIUNG39s-3.jpg)](https://github.com/gtips/reviung/tree/master/reviung39s)  
 
 <br>
 
