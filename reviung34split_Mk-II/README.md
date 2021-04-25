@@ -1,5 +1,5 @@
 # REVIUNG34 Mk-II  
-![REVIUNG34 Mk-II](https://github.com/gtips/reviung/blob/master/reviung34Mk-II/image/reviung34mkII-01.jpg)  
+![REVIUNG34 Mk-II](https://github.com/gtips/reviung/blob/master/reviung34split_Mk-II/image/reviung34mkII-01.jpg)  
 
 The REVIUNG34 Mk-II is 34-key split ortholinear keyboard.  
 Use a LAN cable to connect the left and right keyboards.  
@@ -31,6 +31,6 @@ Choose "1u key x3" or "1u and 2u key" for the left thumb key.
 [Firmware](https://github.com/qmk/qmk_firmware/tree/master/keyboards/reviung34)  
 [Build guide](https://reviung.com/build-guide/656/)  
   
-![REVIUNG34 Mk-II](https://github.com/gtips/reviung/blob/master/reviung34Mk-II/image/reviung34mkII-02.jpg)  
-![REVIUNG34 Mk-II](https://github.com/gtips/reviung/blob/master/reviung34Mk-II/image/reviung34mkII-03.jpg)  
+![REVIUNG34 Mk-II](https://github.com/gtips/reviung/blob/master/reviung34split_Mk-II/image/reviung34mkII-02.jpg)  
+![REVIUNG34 Mk-II](https://github.com/gtips/reviung/blob/master/reviung34split_Mk-II/image/reviung34mkII-03.jpg)  
   

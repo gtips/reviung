@@ -40,14 +40,28 @@ Soldering is divided into through-hole mounting version and surface mounting (SM
   
 <br>
 <br>
+## REVIUNG34  
+The REVIUNG34 is 34-key (or33-key) column staggered keyboard.  
   
-## REVIUNG34 Mk-II and REVIUNG34 SPLIT  
+[REVIUNG34](https://github.com/gtips/reviung/tree/master/reviung34)  
+[![REVIUNG34](https://github.com/gtips/reviung/blob/master/reviung34/image/REVIUNG34-01.jpg)](https://github.com/gtips/reviung/tree/master/reviung34)  
+
+<br>
+
+[REVIUNG34 Build guide](https://reviung.com/build-guide/724/)  
+[Firmware](https://github.com/qmk/qmk_firmware/tree/master/keyboards/reviung34)
+  
+<br>
+<br>
+  
+## REVIUNG34 SPLIT Mk-II and REVIUNG34 SPLIT  
 
 The REVIUNG34 is 34-key split ortholinear keyboard.  
+(REVIUNG34 SPLIT Mk-II is 34-key or 33-key)  
 Use a LAN cable to connect the left and right keyboards.  
   
-[REVIUNG34 Mk-II](https://github.com/gtips/reviung/tree/master/reviung34Mk-II)  
-[![REVIUNG34 Mk-II](https://github.com/gtips/reviung/blob/master/reviung34Mk-II/image/reviung34mkII-02.jpg)](https://github.com/gtips/reviung/tree/master/reviung34Mk-II)  
+[REVIUNG34 Mk-II](https://github.com/gtips/reviung/tree/master/reviung34split_Mk-II)  
+[![REVIUNG34 Mk-II](https://github.com/gtips/reviung/blob/master/reviung34split_Mk-II/image/reviung34mkII-02.jpg)](https://github.com/gtips/reviung/tree/master/reviung34Mk-II)  
   
 <br>
   
