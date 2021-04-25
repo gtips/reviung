@@ -44,7 +44,7 @@ Soldering is divided into through-hole mounting version and surface mounting (SM
 The REVIUNG34 is 34-key (or33-key) column staggered keyboard.  
   
 [REVIUNG34](https://github.com/gtips/reviung/tree/master/reviung34)  
-[![REVIUNG34](https://github.com/gtips/reviung/blob/master/reviung34/image/REVIUNG34-01.jpg)](https://github.com/gtips/reviung/tree/master/reviung34)  
+[![REVIUNG34](https://github.com/gtips/reviung/blob/master/reviung34/image/reviung34-01.jpg)](https://github.com/gtips/reviung/tree/master/reviung34)  
 
 <br>
 
