@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name pcb-bottom-plate2)(type KiCad)(uri ${KIPRJMOD}/pcb-bottom-plate2.pretty)(options "")(descr ""))
+)
