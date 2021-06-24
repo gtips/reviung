@@ -1,0 +1,41 @@
+(export (version D)
+  (design
+    (source D:\git\ctips\reviung-pj\reviung\reviung41\pcb\pcb-top-plate-ver2\pcb-top-plate.sch)
+    (date "2019/12/13 16:22:53")
+    (tool "Eeschema (5.1.2)-1")
+    (sheet (number 1) (name /) (tstamps /)
+      (title_block
+        (title "REVIUNG41 PCB TOP PLATE")
+        (company)
+        (rev 2.0)
+        (date 2019-12-13)
+        (source pcb-top-plate.sch)
+        (comment (number 1) (value ""))
+        (comment (number 2) (value ""))
+        (comment (number 3) (value ""))
+        (comment (number 4) (value "")))))
+  (components
+    (comp (ref H1)
+      (value MountingHole_Pad)
+      (footprint MountingHole:MountingHole_2.2mm_M2_Pad)
+      (datasheet ~)
+      (libsource (lib Mechanical) (part MountingHole_Pad) (description "Mounting Hole with connection"))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5DD76E8A)))
+  (libparts
+    (libpart (lib Mechanical) (part MountingHole_Pad)
+      (description "Mounting Hole with connection")
+      (docs ~)
+      (footprints
+        (fp MountingHole*Pad*))
+      (fields
+        (field (name Reference) H)
+        (field (name Value) MountingHole_Pad))
+      (pins
+        (pin (num 1) (name 1) (type input)))))
+  (libraries
+    (library (logical Mechanical)
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library/Mechanical.lib")))
+  (nets
+    (net (code 1) (name GND)
+      (node (ref H1) (pin 1)))))
