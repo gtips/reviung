@@ -16,7 +16,7 @@ The REVIUNG34 is 34-key (or 33-key) column staggered keyboard.
 | 1 | Middle acrylic plate (top)  |  option |
 | 1 | Middle acrylic plate (bottom)  | option |
 | 1 | Bottom plate |  |
-| 4 | ProMicro cover plate | option |
+| 1 | ProMicro cover plate | option |
 | 3 | Acrylic spacer |  for Pro Micro cover |
 | 11 | Spacer | for body |
 | 22 | M2 screw 4mm |  for body |  
@@ -24,7 +24,6 @@ The REVIUNG34 is 34-key (or 33-key) column staggered keyboard.
 | 3 | M2 nut |  for Pro Micro cover |
 | 6 | Rubber feet |  |
 | 34 | Diode [1N4148 SMD]  |  |
-| 34 | MX Hotswap Sockets | Kailh MX Hotswap Sockets |
 | 1 | Tact switch |  RESET switch |
 | 9 | LED [WS2812B]  | option |
 | 1 | 2U Stabilizer  | 33-key |

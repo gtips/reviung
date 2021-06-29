@@ -29,13 +29,7 @@ Soldering is divided into through-hole mounting version and surface mounting (SM
 
 <br>
 
-[REVIUNG39s](https://github.com/gtips/reviung/tree/master/reviung39s)  
-[![REVIUNG39s](https://github.com/gtips/reviung/blob/master/reviung39s/image/REVIUNG39s-3.jpg)](https://github.com/gtips/reviung/tree/master/reviung39s)  
-
-<br>
-
 [REVIUNG39 Build guide](https://reviung.com/build-guide/108/)  
-[REVIUNG39S Build guide](https://reviung.com/build-guide/112/)  
 [Firmware](https://github.com/qmk/qmk_firmware/tree/master/keyboards/reviung39)
   
 <br>
@@ -52,6 +46,20 @@ The REVIUNG34 is 34-key (or33-key) column staggered keyboard.
 
 [REVIUNG34 Build guide](https://reviung.com/build-guide/724/)  
 [Firmware](https://github.com/qmk/qmk_firmware/tree/master/keyboards/reviung34)
+  
+<br>
+<br>
+
+## REVIUNG5  
+The REVIUNG5 is 5-key (or 4-key + Rotary Encoder) macropad.  
+  
+[REVIUNG5](https://github.com/gtips/reviung/tree/master/reviung5)  
+[![REVIUNG5](https://github.com/gtips/reviung/blob/master/reviung5/image/reviung5-1.jpg)](https://github.com/gtips/reviung/tree/master/reviung5)  
+
+<br>
+
+[REVIUNG5 Build guide](https://reviung.com/build-guide/)  
+[Firmware](https://github.com/qmk/qmk_firmware/tree/master/keyboards/reviung5)
   
 <br>
 <br>

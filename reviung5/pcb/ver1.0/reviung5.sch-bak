@@ -1,0 +1,476 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "REVIUNG5"
+Date "2021-06-09"
+Rev "ver1.0"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:PWR_FLAG #FLG01
+U 1 1 60C07580
+P 1000 1000
+F 0 "#FLG01" H 1000 1075 50  0001 C CNN
+F 1 "PWR_FLAG" H 1000 1173 50  0000 C CNN
+F 2 "" H 1000 1000 50  0001 C CNN
+F 3 "~" H 1000 1000 50  0001 C CNN
+	1    1000 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR03
+U 1 1 60C07D65
+P 1000 1000
+F 0 "#PWR03" H 1000 750 50  0001 C CNN
+F 1 "GND" H 1005 827 50  0000 C CNN
+F 2 "" H 1000 1000 50  0001 C CNN
+F 3 "" H 1000 1000 50  0001 C CNN
+	1    1000 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG02
+U 1 1 60C07F0D
+P 1500 1000
+F 0 "#FLG02" H 1500 1075 50  0001 C CNN
+F 1 "PWR_FLAG" H 1500 1173 50  0000 C CNN
+F 2 "" H 1500 1000 50  0001 C CNN
+F 3 "~" H 1500 1000 50  0001 C CNN
+	1    1500 1000
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:VCC #PWR04
+U 1 1 60C08211
+P 1500 1000
+F 0 "#PWR04" H 1500 850 50  0001 C CNN
+F 1 "VCC" H 1515 1173 50  0000 C CNN
+F 2 "" H 1500 1000 50  0001 C CNN
+F 3 "" H 1500 1000 50  0001 C CNN
+	1    1500 1000
+	1    0    0    -1  
+$EndComp
+Text GLabel 1500 2100 0    50   Input ~ 0
+LED
+$Comp
+L power:GND #PWR07
+U 1 1 60C0C6E4
+P 1250 2400
+F 0 "#PWR07" H 1250 2150 50  0001 C CNN
+F 1 "GND" V 1255 2272 50  0000 R CNN
+F 2 "" H 1250 2400 50  0001 C CNN
+F 3 "" H 1250 2400 50  0001 C CNN
+	1    1250 2400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1500 2400 1350 2400
+Wire Wire Line
+	1500 2300 1350 2300
+Wire Wire Line
+	1350 2300 1350 2400
+Connection ~ 1350 2400
+Wire Wire Line
+	1350 2400 1250 2400
+Text GLabel 2900 2300 2    50   Input ~ 0
+reset
+$Comp
+L power:GND #PWR06
+U 1 1 60C0D311
+P 3150 2200
+F 0 "#PWR06" H 3150 1950 50  0001 C CNN
+F 1 "GND" V 3155 2072 50  0000 R CNN
+F 2 "" H 3150 2200 50  0001 C CNN
+F 3 "" H 3150 2200 50  0001 C CNN
+	1    3150 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:VCC #PWR08
+U 1 1 60C0D645
+P 2900 2400
+F 0 "#PWR08" H 2900 2250 50  0001 C CNN
+F 1 "VCC" V 2915 2528 50  0000 L CNN
+F 2 "" H 2900 2400 50  0001 C CNN
+F 3 "" H 2900 2400 50  0001 C CNN
+	1    2900 2400
+	0    1    1    0   
+$EndComp
+Text GLabel 2900 2500 2    50   Input ~ 0
+row0
+Text GLabel 1500 2700 0    50   Input ~ 0
+col0
+Text GLabel 1500 2800 0    50   Input ~ 0
+col1
+Text GLabel 1500 2900 0    50   Input ~ 0
+col2
+Text GLabel 1500 3000 0    50   Input ~ 0
+col3
+Text GLabel 1500 3100 0    50   Input ~ 0
+col4
+Text GLabel 1500 2600 0    50   Input ~ 0
+padA
+Text GLabel 1500 2500 0    50   Input ~ 0
+padB
+NoConn ~ 1500 2200
+NoConn ~ 2900 2100
+NoConn ~ 2900 2600
+NoConn ~ 2900 2700
+NoConn ~ 2900 2800
+NoConn ~ 2900 2900
+NoConn ~ 2900 3000
+NoConn ~ 1500 3200
+Wire Wire Line
+	3150 2200 2900 2200
+$Comp
+L _reviung-kbd:ProMicro U1
+U 1 1 60C08DCC
+P 2200 2850
+F 0 "U1" H 2200 3887 60  0000 C CNN
+F 1 "ProMicro" H 2200 3781 60  0000 C CNN
+F 2 "_reviung-kbd:ProMicro" H 2300 1800 60  0001 C CNN
+F 3 "" H 2300 1800 60  0000 C CNN
+	1    2200 2850
+	1    0    0    -1  
+$EndComp
+NoConn ~ 2900 3100
+NoConn ~ 2900 3200
+$Comp
+L Device:Rotary_Encoder_Switch RESW1
+U 1 1 60C0F843
+P 4450 1450
+F 0 "RESW1" V 4404 1680 50  0000 L CNN
+F 1 "Rotary_Encoder_Switch" V 4495 1680 50  0000 L CNN
+F 2 "Rotary_Encoder:RotaryEncoder_Alps_EC12E-Switch_Vertical_H20mm_CircularMountingHoles" H 4300 1610 50  0001 C CNN
+F 3 "~" H 4450 1710 50  0001 C CNN
+	1    4450 1450
+	0    1    1    0   
+$EndComp
+Text GLabel 4550 1150 1    50   Input ~ 0
+padA
+Text GLabel 4350 1150 1    50   Input ~ 0
+padB
+$Comp
+L power:GND #PWR01
+U 1 1 60C10DFD
+P 4450 900
+F 0 "#PWR01" H 4450 650 50  0001 C CNN
+F 1 "GND" V 4455 772 50  0000 R CNN
+F 2 "" H 4450 900 50  0001 C CNN
+F 3 "" H 4450 900 50  0001 C CNN
+	1    4450 900 
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4450 900  4450 1150
+$Comp
+L Device:Rotary_Encoder_Switch RESW2
+U 1 1 60C13A52
+P 8550 1450
+F 0 "RESW2" V 8504 1680 50  0000 L CNN
+F 1 "Rotary_Encoder_Switch" V 8595 1680 50  0000 L CNN
+F 2 "Rotary_Encoder:RotaryEncoder_Alps_EC12E-Switch_Vertical_H20mm_CircularMountingHoles" H 8400 1610 50  0001 C CNN
+F 3 "~" H 8550 1710 50  0001 C CNN
+	1    8550 1450
+	0    1    1    0   
+$EndComp
+Text GLabel 8650 1150 1    50   Input ~ 0
+padA
+Text GLabel 8450 1150 1    50   Input ~ 0
+padB
+$Comp
+L power:GND #PWR02
+U 1 1 60C13A5A
+P 8550 900
+F 0 "#PWR02" H 8550 650 50  0001 C CNN
+F 1 "GND" V 8555 772 50  0000 R CNN
+F 2 "" H 8550 900 50  0001 C CNN
+F 3 "" H 8550 900 50  0001 C CNN
+	1    8550 900 
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8550 900  8550 1150
+$Comp
+L _reviung-kbd:SW_PUSH SW1
+U 1 1 60C144AA
+P 4150 2200
+F 0 "SW1" H 4150 2455 50  0000 C CNN
+F 1 "SW_PUSH" H 4150 2364 50  0000 C CNN
+F 2 "_reviung-kbd:MXOnly-1U-NoLED" H 4150 2200 50  0001 C CNN
+F 3 "" H 4150 2200 50  0000 C CNN
+	1    4150 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 2000 3850 2200
+$Comp
+L Diode:1N4148 D1
+U 1 1 60C15A8D
+P 4450 2350
+F 0 "D1" V 4496 2270 50  0000 R CNN
+F 1 "1N4148" V 4405 2270 50  0000 R CNN
+F 2 "_reviung-kbd:D3_TH_SMD_1side" H 4450 2175 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4450 2350 50  0001 C CNN
+	1    4450 2350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L _reviung-kbd:SW_PUSH SW2
+U 1 1 60C19580
+P 5150 2200
+F 0 "SW2" H 5150 2455 50  0000 C CNN
+F 1 "SW_PUSH" H 5150 2364 50  0000 C CNN
+F 2 "_reviung-kbd:MXOnly-1U-NoLED" H 5150 2200 50  0001 C CNN
+F 3 "" H 5150 2200 50  0000 C CNN
+	1    5150 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 2000 4850 2200
+$Comp
+L Diode:1N4148 D2
+U 1 1 60C19587
+P 5450 2350
+F 0 "D2" V 5496 2270 50  0000 R CNN
+F 1 "1N4148" V 5405 2270 50  0000 R CNN
+F 2 "_reviung-kbd:D3_TH_SMD_1side" H 5450 2175 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5450 2350 50  0001 C CNN
+	1    5450 2350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L _reviung-kbd:SW_PUSH SW3
+U 1 1 60C1A890
+P 6150 2200
+F 0 "SW3" H 6150 2455 50  0000 C CNN
+F 1 "SW_PUSH" H 6150 2364 50  0000 C CNN
+F 2 "_reviung-kbd:MXOnly-1U-NoLED" H 6150 2200 50  0001 C CNN
+F 3 "" H 6150 2200 50  0000 C CNN
+	1    6150 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5850 2000 5850 2200
+$Comp
+L Diode:1N4148 D3
+U 1 1 60C1A897
+P 6450 2350
+F 0 "D3" V 6496 2270 50  0000 R CNN
+F 1 "1N4148" V 6405 2270 50  0000 R CNN
+F 2 "_reviung-kbd:D3_TH_SMD_1side" H 6450 2175 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6450 2350 50  0001 C CNN
+	1    6450 2350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L _reviung-kbd:SW_PUSH SW4
+U 1 1 60C1BC26
+P 7150 2200
+F 0 "SW4" H 7150 2455 50  0000 C CNN
+F 1 "SW_PUSH" H 7150 2364 50  0000 C CNN
+F 2 "_reviung-kbd:MXOnly-1U-NoLED" H 7150 2200 50  0001 C CNN
+F 3 "" H 7150 2200 50  0000 C CNN
+	1    7150 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6850 2000 6850 2200
+$Comp
+L Diode:1N4148 D4
+U 1 1 60C1BC2D
+P 7450 2350
+F 0 "D4" V 7496 2270 50  0000 R CNN
+F 1 "1N4148" V 7405 2270 50  0000 R CNN
+F 2 "_reviung-kbd:D3_TH_SMD_1side" H 7450 2175 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7450 2350 50  0001 C CNN
+	1    7450 2350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L _reviung-kbd:SW_PUSH SW5
+U 1 1 60C1CEAD
+P 8150 2200
+F 0 "SW5" H 8150 2455 50  0000 C CNN
+F 1 "SW_PUSH" H 8150 2364 50  0000 C CNN
+F 2 "_reviung-kbd:MXOnly-1U-NoLED" H 8150 2200 50  0001 C CNN
+F 3 "" H 8150 2200 50  0000 C CNN
+	1    8150 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7850 2000 7850 2200
+$Comp
+L Diode:1N4148 D5
+U 1 1 60C1CEB4
+P 8450 2350
+F 0 "D5" V 8496 2270 50  0000 R CNN
+F 1 "1N4148" V 8405 2270 50  0000 R CNN
+F 2 "_reviung-kbd:D3_TH_SMD_1side" H 8450 2175 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8450 2350 50  0001 C CNN
+	1    8450 2350
+	0    -1   -1   0   
+$EndComp
+Text GLabel 3850 2000 1    50   Input ~ 0
+col0
+Text GLabel 4850 2000 1    50   Input ~ 0
+col1
+Text GLabel 5850 2000 1    50   Input ~ 0
+col2
+Text GLabel 6850 2000 1    50   Input ~ 0
+col3
+Text GLabel 7850 2000 1    50   Input ~ 0
+col4
+Text GLabel 3700 2500 0    50   Input ~ 0
+row0
+Wire Wire Line
+	3700 2500 4450 2500
+Wire Wire Line
+	4450 2500 5450 2500
+Connection ~ 4450 2500
+Wire Wire Line
+	5450 2500 6450 2500
+Connection ~ 5450 2500
+Wire Wire Line
+	6450 2500 7450 2500
+Connection ~ 6450 2500
+Wire Wire Line
+	7450 2500 8450 2500
+Connection ~ 7450 2500
+Text GLabel 8650 1750 3    50   Input ~ 0
+col4
+Wire Wire Line
+	8450 1750 8450 2200
+Connection ~ 8450 2200
+Text GLabel 4550 1750 3    50   Input ~ 0
+col0
+Wire Wire Line
+	4350 1750 4350 2050
+Wire Wire Line
+	4350 2050 4450 2050
+Wire Wire Line
+	4450 2050 4450 2200
+Connection ~ 4450 2200
+Text GLabel 3700 3050 0    50   Input ~ 0
+reset
+$Comp
+L power:GND #PWR010
+U 1 1 60C4F099
+P 4300 3050
+F 0 "#PWR010" H 4300 2800 50  0001 C CNN
+F 1 "GND" H 4305 2877 50  0000 C CNN
+F 2 "" H 4300 3050 50  0001 C CNN
+F 3 "" H 4300 3050 50  0001 C CNN
+	1    4300 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB3
+U 1 1 60C54D53
+P 7150 3300
+F 0 "RGB3" H 7100 3700 50  0000 L CNN
+F 1 "WS2812B" H 7000 2900 50  0000 L CNN
+F 2 "_reviung-kbd:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 7200 3000 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 7250 2925 50  0001 L TNN
+	1    7150 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB4
+U 1 1 60C55A33
+P 7750 3300
+F 0 "RGB4" H 7700 3700 50  0000 L CNN
+F 1 "WS2812B" H 7600 2900 50  0000 L CNN
+F 2 "_reviung-kbd:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 7800 3000 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 7850 2925 50  0001 L TNN
+	1    7750 3300
+	1    0    0    -1  
+$EndComp
+NoConn ~ 8050 3300
+Wire Wire Line
+	7750 3000 7150 3000
+Wire Wire Line
+	7150 3000 6550 3000
+Connection ~ 7150 3000
+Wire Wire Line
+	7750 3600 7150 3600
+Wire Wire Line
+	7150 3600 6550 3600
+Connection ~ 7150 3600
+$Comp
+L _reviung-kbd:SW_PUSH reset1
+U 1 1 60C0BB1F
+P 4000 3050
+F 0 "reset1" H 4000 3305 50  0000 C CNN
+F 1 "SW_PUSH" H 4000 3214 50  0000 C CNN
+F 2 "_reviung-kbd:ResetSW_TH_SMD" H 4000 3050 50  0001 C CNN
+F 3 "" H 4000 3050 50  0000 C CNN
+	1    4000 3050
+	1    0    0    -1  
+$EndComp
+Connection ~ 6550 3600
+Connection ~ 6550 3000
+$Comp
+L power:GND #PWR011
+U 1 1 60C5A126
+P 5450 3600
+F 0 "#PWR011" H 5450 3350 50  0001 C CNN
+F 1 "GND" H 5455 3427 50  0000 C CNN
+F 2 "" H 5450 3600 50  0001 C CNN
+F 3 "" H 5450 3600 50  0001 C CNN
+	1    5450 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR09
+U 1 1 60C59BF4
+P 5450 3000
+F 0 "#PWR09" H 5450 2850 50  0001 C CNN
+F 1 "VCC" H 5465 3173 50  0000 C CNN
+F 2 "" H 5450 3000 50  0001 C CNN
+F 3 "" H 5450 3000 50  0001 C CNN
+	1    5450 3000
+	1    0    0    -1  
+$EndComp
+Text GLabel 5650 3300 0    50   Input ~ 0
+LED
+Connection ~ 5950 3600
+Wire Wire Line
+	5950 3600 5450 3600
+Wire Wire Line
+	6550 3600 5950 3600
+Connection ~ 5950 3000
+Wire Wire Line
+	5950 3000 5450 3000
+Wire Wire Line
+	6550 3000 5950 3000
+$Comp
+L LED:WS2812B RGB2
+U 1 1 60C54076
+P 6550 3300
+F 0 "RGB2" H 6500 3700 50  0000 L CNN
+F 1 "WS2812B" H 6400 2900 50  0000 L CNN
+F 2 "_reviung-kbd:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 6600 3000 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 6650 2925 50  0001 L TNN
+	1    6550 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB1
+U 1 1 60C4FB7D
+P 5950 3300
+F 0 "RGB1" H 5900 3700 50  0000 L CNN
+F 1 "WS2812B" H 5800 2900 50  0000 L CNN
+F 2 "_reviung-kbd:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 6000 3000 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 6050 2925 50  0001 L TNN
+	1    5950 3300
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
