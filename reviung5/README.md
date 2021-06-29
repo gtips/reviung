@@ -1,5 +1,5 @@
-# REVIUNG34  
-![REVIUNG34](https://github.com/gtips/reviung/blob/master/reviung5/image/reviung5-1.jpg)  
+# REVIUNG5  
+![REVIUNG5](https://github.com/gtips/reviung/blob/master/reviung5/image/reviung5-1.jpg)  
   
 The REVIUNG5 is 5-key (or 4-key + Rotary Encoder) macropad.  
 
