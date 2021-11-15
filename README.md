@@ -19,8 +19,8 @@ Soldering is divided into through-hole mounting version and surface mounting (SM
 - EVIUNG39 Mk-II and REVIUNG39 is regular version (SMD)  
 - REVIUNG39S is simple version (through-hole)  
 
-[REVIUNG39 Mk-II ](https://github.com/gtips/reviung/tree/master/reviung39Mk-II)   
-[![REVIUNG39 Mk-II ](https://github.com/gtips/reviung/blob/master/reviung39_Mk-II/image/reviung39MkII-01.jpg)](https://github.com/gtips/reviung/tree/master/reviung39Mk-II)  
+[REVIUNG39 Mk-II ](https://github.com/gtips/reviung/tree/master/reviung39_Mk-II)   
+[![REVIUNG39 Mk-II ](https://github.com/gtips/reviung/blob/master/reviung39_Mk-II/image/reviung39MkII-01.jpg)](https://github.com/gtips/reviung/tree/master/reviung39_Mk-II)  
 
 <br>
 
