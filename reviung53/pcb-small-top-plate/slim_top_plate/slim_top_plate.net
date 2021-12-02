@@ -1,0 +1,41 @@
+(export (version D)
+  (design
+    (source /Users/masato/git/bitbucket/reviung/reviung53/pcb/slim_top_plate/slim_top_plate.sch)
+    (date "2021年12月01日 水曜日 14:55:08")
+    (tool "Eeschema (5.1.9-0-10_14)")
+    (sheet (number 1) (name /) (tstamps /)
+      (title_block
+        (title "REVIUNG53 Slim Top Plate")
+        (company)
+        (rev 1)
+        (date 2021-12-01)
+        (source slim_top_plate.sch)
+        (comment (number 1) (value ""))
+        (comment (number 2) (value ""))
+        (comment (number 3) (value ""))
+        (comment (number 4) (value "")))))
+  (components
+    (comp (ref H1)
+      (value MountingHole_Pad)
+      (footprint MountingHole:MountingHole_2.2mm_M2_Pad)
+      (datasheet ~)
+      (libsource (lib Mechanical) (part MountingHole_Pad) (description "Mounting Hole with connection"))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 61A719AE)))
+  (libparts
+    (libpart (lib Mechanical) (part MountingHole_Pad)
+      (description "Mounting Hole with connection")
+      (docs ~)
+      (footprints
+        (fp MountingHole*Pad*))
+      (fields
+        (field (name Reference) H)
+        (field (name Value) MountingHole_Pad))
+      (pins
+        (pin (num 1) (name 1) (type input)))))
+  (libraries
+    (library (logical Mechanical)
+      (uri "/Library/Application Support/kicad/library/Mechanical.lib")))
+  (nets
+    (net (code 1) (name GND)
+      (node (ref H1) (pin 1)))))

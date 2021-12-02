@@ -1,0 +1,2040 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "REVIUNG53"
+Date "2021-11-10"
+Rev "1"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:PWR_FLAG #FLG01
+U 1 1 618B5E62
+P 750 800
+F 0 "#FLG01" H 750 875 50  0001 C CNN
+F 1 "PWR_FLAG" H 750 973 50  0000 C CNN
+F 2 "" H 750 800 50  0001 C CNN
+F 3 "~" H 750 800 50  0001 C CNN
+	1    750  800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR01
+U 1 1 618B60AD
+P 750 800
+F 0 "#PWR01" H 750 550 50  0001 C CNN
+F 1 "GND" H 755 627 50  0000 C CNN
+F 2 "" H 750 800 50  0001 C CNN
+F 3 "" H 750 800 50  0001 C CNN
+	1    750  800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG02
+U 1 1 618B628B
+P 1100 800
+F 0 "#FLG02" H 1100 875 50  0001 C CNN
+F 1 "PWR_FLAG" H 1100 973 50  0000 C CNN
+F 2 "" H 1100 800 50  0001 C CNN
+F 3 "~" H 1100 800 50  0001 C CNN
+	1    1100 800 
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:VCC #PWR02
+U 1 1 618B677D
+P 1100 800
+F 0 "#PWR02" H 1100 650 50  0001 C CNN
+F 1 "VCC" H 1115 973 50  0000 C CNN
+F 2 "" H 1100 800 50  0001 C CNN
+F 3 "" H 1100 800 50  0001 C CNN
+	1    1100 800 
+	1    0    0    -1  
+$EndComp
+Text GLabel 1075 5975 0    50   Input ~ 0
+LED
+Text GLabel 2475 6375 2    50   Input ~ 0
+col0
+Text GLabel 2475 6475 2    50   Input ~ 0
+col1
+Text GLabel 2475 6575 2    50   Input ~ 0
+col2
+Text GLabel 2475 6675 2    50   Input ~ 0
+col3
+Text GLabel 2475 6775 2    50   Input ~ 0
+col4
+Text GLabel 2475 6875 2    50   Input ~ 0
+col5
+Text GLabel 2475 6975 2    50   Input ~ 0
+col6
+Text GLabel 2475 7075 2    50   Input ~ 0
+col7
+Text GLabel 1075 6475 0    50   Input ~ 0
+row0
+Text GLabel 1075 6575 0    50   Input ~ 0
+row1
+Text GLabel 1075 6675 0    50   Input ~ 0
+row2
+Text GLabel 1075 6775 0    50   Input ~ 0
+row3
+Text GLabel 1075 6875 0    50   Input ~ 0
+row4
+Text GLabel 1075 6975 0    50   Input ~ 0
+row5
+Text GLabel 1075 7075 0    50   Input ~ 0
+row6
+Text GLabel 2475 6175 2    50   Input ~ 0
+reset
+$Comp
+L power:GND #PWR05
+U 1 1 618BA60D
+P 2475 6075
+F 0 "#PWR05" H 2475 5825 50  0001 C CNN
+F 1 "GND" V 2480 5947 50  0000 R CNN
+F 2 "" H 2475 6075 50  0001 C CNN
+F 3 "" H 2475 6075 50  0001 C CNN
+	1    2475 6075
+	0    -1   -1   0   
+$EndComp
+$Comp
+L _reviung-kbd:ProMicro U1
+U 1 1 618B7F24
+P 1775 6725
+F 0 "U1" H 1775 7762 60  0000 C CNN
+F 1 "ProMicro" H 1775 7656 60  0000 C CNN
+F 2 "_reviung-kbd:ProMicro" H 1875 5675 60  0001 C CNN
+F 3 "" H 1875 5675 60  0000 C CNN
+	1    1775 6725
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR08
+U 1 1 618BCC93
+P 2475 6275
+F 0 "#PWR08" H 2475 6125 50  0001 C CNN
+F 1 "VCC" V 2490 6403 50  0000 L CNN
+F 2 "" H 2475 6275 50  0001 C CNN
+F 3 "" H 2475 6275 50  0001 C CNN
+	1    2475 6275
+	0    1    1    0   
+$EndComp
+NoConn ~ 2475 5975
+$Comp
+L power:GND #PWR06
+U 1 1 618BDA9A
+P 975 6175
+F 0 "#PWR06" H 975 5925 50  0001 C CNN
+F 1 "GND" V 980 6047 50  0000 R CNN
+F 2 "" H 975 6175 50  0001 C CNN
+F 3 "" H 975 6175 50  0001 C CNN
+	1    975  6175
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1075 6175 1025 6175
+Wire Wire Line
+	1075 6275 1025 6275
+Wire Wire Line
+	1025 6275 1025 6175
+Connection ~ 1025 6175
+Wire Wire Line
+	1025 6175 975  6175
+$Comp
+L _reviung-kbd:SW_PUSH SW2
+U 1 1 618C4A47
+P 5200 1200
+F 0 "SW2" H 5200 1455 50  0000 C CNN
+F 1 "2" H 5200 1364 50  0000 C CNN
+F 2 "_reviung-kbd:MXOnly-1U-Hotswap" H 5200 1200 50  0001 C CNN
+F 3 "" H 5200 1200 50  0000 C CNN
+	1    5200 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148W D2
+U 1 1 618C4A4D
+P 5500 1350
+F 0 "D2" V 5546 1270 50  0000 R CNN
+F 1 "1N4148W" V 5455 1270 50  0000 R CNN
+F 2 "_reviung-kbd:D3_SMD_1side" H 5500 1175 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 5500 1350 50  0001 C CNN
+	1    5500 1350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L _reviung-kbd:SW_PUSH SW3
+U 1 1 618CDAD8
+P 6475 1200
+F 0 "SW3" H 6475 1455 50  0000 C CNN
+F 1 "3" H 6475 1364 50  0000 C CNN
+F 2 "_reviung-kbd:MXOnly-1U-Hotswap" H 6475 1200 50  0001 C CNN
+F 3 "" H 6475 1200 50  0000 C CNN
+	1    6475 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148W D3
+U 1 1 618CDADE
+P 6775 1350
+F 0 "D3" V 6821 1270 50  0000 R CNN
+F 1 "1N4148W" V 6730 1270 50  0000 R CNN
+F 2 "_reviung-kbd:D3_SMD_1side" H 6775 1175 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 6775 1350 50  0001 C CNN
+	1    6775 1350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D6
+U 1 1 618CDB02
+P 10100 1350
+F 0 "D6" V 10146 1270 50  0000 R CNN
+F 1 "1N4148W" V 10055 1270 50  0000 R CNN
+F 2 "_reviung-kbd:D3_SMD_1side" H 10100 1175 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 10100 1350 50  0001 C CNN
+	1    10100 1350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L _reviung-kbd:SW_PUSH SW7
+U 1 1 618DAE72
+P 1875 1800
+F 0 "SW7" H 1875 2055 50  0000 C CNN
+F 1 "1.5U" H 1875 1964 50  0000 C CNN
+F 2 "_reviung-kbd:MXOnly-1.5U-Hotswap" H 1875 1800 50  0001 C CNN
+F 3 "" H 1875 1800 50  0000 C CNN
+	1    1875 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148W D7
+U 1 1 618DAE78
+P 2175 1950
+F 0 "D7" V 2221 1870 50  0000 R CNN
+F 1 "1N4148W" V 2130 1870 50  0000 R CNN
+F 2 "_reviung-kbd:D3_SMD_1side" H 2175 1775 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 2175 1950 50  0001 C CNN
+	1    2175 1950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L _reviung-kbd:SW_PUSH SW8
+U 1 1 618DAE7E
+P 2875 1800
+F 0 "SW8" H 2875 2055 50  0000 C CNN
+F 1 "Q" H 2875 1964 50  0000 C CNN
+F 2 "_reviung-kbd:MXOnly-1U-Hotswap" H 2875 1800 50  0001 C CNN
+F 3 "" H 2875 1800 50  0000 C CNN
+	1    2875 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148W D8
+U 1 1 618DAE84
+P 3175 1950
+F 0 "D8" V 3221 1870 50  0000 R CNN
+F 1 "1N4148W" V 3130 1870 50  0000 R CNN
+F 2 "_reviung-kbd:D3_SMD_1side" H 3175 1775 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 3175 1950 50  0001 C CNN
+	1    3175 1950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L _reviung-kbd:SW_PUSH SW10
+U 1 1 618DAE96
+P 5200 1800
+F 0 "SW10" H 5200 2055 50  0000 C CNN
+F 1 "E" H 5200 1964 50  0000 C CNN
+F 2 "_reviung-kbd:MXOnly-1U-Hotswap" H 5200 1800 50  0001 C CNN
+F 3 "" H 5200 1800 50  0000 C CNN
+	1    5200 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148W D10
+U 1 1 618DAE9C
+P 5500 1950
+F 0 "D10" V 5546 1870 50  0000 R CNN
+F 1 "1N4148W" V 5455 1870 50  0000 R CNN
+F 2 "_reviung-kbd:D3_SMD_1side" H 5500 1775 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 5500 1950 50  0001 C CNN
+	1    5500 1950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L _reviung-kbd:SW_PUSH SW11
+U 1 1 618DAEA2
+P 6475 1800
+F 0 "SW11" H 6475 2055 50  0000 C CNN
+F 1 "R" H 6475 1964 50  0000 C CNN
+F 2 "_reviung-kbd:MXOnly-1U-Hotswap" H 6475 1800 50  0001 C CNN
+F 3 "" H 6475 1800 50  0000 C CNN
+	1    6475 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148W D11
+U 1 1 618DAEA8
+P 6775 1950
+F 0 "D11" V 6821 1870 50  0000 R CNN
+F 1 "1N4148W" V 6730 1870 50  0000 R CNN
+F 2 "_reviung-kbd:D3_SMD_1side" H 6775 1775 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 6775 1950 50  0001 C CNN
+	1    6775 1950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D14
+U 1 1 618DAECC
+P 10100 1950
+F 0 "D14" V 10146 1870 50  0000 R CNN
+F 1 "1N4148W" V 10055 1870 50  0000 R CNN
+F 2 "_reviung-kbd:D3_SMD_1side" H 10100 1775 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 10100 1950 50  0001 C CNN
+	1    10100 1950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L _reviung-kbd:SW_PUSH SW16
+U 1 1 618EDDA3
+P 2200 2400
+F 0 "SW16" H 2200 2655 50  0000 C CNN
+F 1 "1.75U" H 2200 2564 50  0000 C CNN
+F 2 "_reviung-kbd:MXOnly-1.75U-Hotswap" H 2200 2400 50  0001 C CNN
+F 3 "" H 2200 2400 50  0000 C CNN
+	1    2200 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L _reviung-kbd:SW_PUSH SW17
+U 1 1 618EDDAF
+P 2875 2400
+F 0 "SW17" H 2875 2655 50  0000 C CNN
+F 1 "A" H 2875 2564 50  0000 C CNN
+F 2 "_reviung-kbd:MXOnly-1U-Hotswap" H 2875 2400 50  0001 C CNN
+F 3 "" H 2875 2400 50  0000 C CNN
+	1    2875 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148W D15
+U 1 1 618EDDB5
+P 3175 2550
+F 0 "D15" V 3221 2470 50  0000 R CNN
+F 1 "1N4148W" V 3130 2470 50  0000 R CNN
+F 2 "_reviung-kbd:D3_SMD_1side" H 3175 2375 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 3175 2550 50  0001 C CNN
+	1    3175 2550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L _reviung-kbd:SW_PUSH SW19
+U 1 1 618EDDC7
+P 5200 2400
+F 0 "SW19" H 5200 2655 50  0000 C CNN
+F 1 "D" H 5200 2564 50  0000 C CNN
+F 2 "_reviung-kbd:MXOnly-1U-Hotswap" H 5200 2400 50  0001 C CNN
+F 3 "" H 5200 2400 50  0000 C CNN
+	1    5200 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148W D17
+U 1 1 618EDDCD
+P 5500 2550
+F 0 "D17" V 5546 2470 50  0000 R CNN
+F 1 "1N4148W" V 5455 2470 50  0000 R CNN
+F 2 "_reviung-kbd:D3_SMD_1side" H 5500 2375 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 5500 2550 50  0001 C CNN
+	1    5500 2550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L _reviung-kbd:SW_PUSH SW20
+U 1 1 618EDDD3
+P 6475 2400
+F 0 "SW20" H 6475 2655 50  0000 C CNN
+F 1 "F" H 6475 2564 50  0000 C CNN
+F 2 "_reviung-kbd:MXOnly-1U-Hotswap" H 6475 2400 50  0001 C CNN
+F 3 "" H 6475 2400 50  0000 C CNN
+	1    6475 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148W D18
+U 1 1 618EDDD9
+P 6775 2550
+F 0 "D18" V 6821 2470 50  0000 R CNN
+F 1 "1N4148W" V 6730 2470 50  0000 R CNN
+F 2 "_reviung-kbd:D3_SMD_1side" H 6775 2375 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 6775 2550 50  0001 C CNN
+	1    6775 2550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D21
+U 1 1 618EDDFD
+P 10100 2550
+F 0 "D21" V 10146 2470 50  0000 R CNN
+F 1 "1N4148W" V 10055 2470 50  0000 R CNN
+F 2 "_reviung-kbd:D3_SMD_1side" H 10100 2375 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 10100 2550 50  0001 C CNN
+	1    10100 2550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L _reviung-kbd:SW_PUSH SW24
+U 1 1 618EDE03
+P 1875 3000
+F 0 "SW24" H 1875 3255 50  0000 C CNN
+F 1 "2.25U" H 1875 3164 50  0000 C CNN
+F 2 "_reviung-kbd:MXOnly-2.25U-Hotswap-ReversedStabilizers" H 1875 3000 50  0001 C CNN
+F 3 "" H 1875 3000 50  0000 C CNN
+	1    1875 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148W D23
+U 1 1 618EDE09
+P 2175 3150
+F 0 "D23" V 2221 3070 50  0000 R CNN
+F 1 "1N4148W" V 2130 3070 50  0000 R CNN
+F 2 "_reviung-kbd:D3_SMD_1side" H 2175 2975 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 2175 3150 50  0001 C CNN
+	1    2175 3150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L _reviung-kbd:SW_PUSH SW25
+U 1 1 618EDE0F
+P 2875 3000
+F 0 "SW25" H 2875 3255 50  0000 C CNN
+F 1 "Z" H 2875 3164 50  0000 C CNN
+F 2 "_reviung-kbd:MXOnly-1U-Hotswap" H 2875 3000 50  0001 C CNN
+F 3 "" H 2875 3000 50  0000 C CNN
+	1    2875 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148W D24
+U 1 1 618EDE15
+P 3175 3150
+F 0 "D24" V 3221 3070 50  0000 R CNN
+F 1 "1N4148W" V 3130 3070 50  0000 R CNN
+F 2 "_reviung-kbd:D3_SMD_1side" H 3175 2975 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 3175 3150 50  0001 C CNN
+	1    3175 3150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L _reviung-kbd:SW_PUSH SW27
+U 1 1 618EDE27
+P 5200 3000
+F 0 "SW27" H 5200 3255 50  0000 C CNN
+F 1 "C" H 5200 3164 50  0000 C CNN
+F 2 "_reviung-kbd:MXOnly-1U-Hotswap" H 5200 3000 50  0001 C CNN
+F 3 "" H 5200 3000 50  0000 C CNN
+	1    5200 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148W D26
+U 1 1 618EDE2D
+P 5500 3150
+F 0 "D26" V 5546 3070 50  0000 R CNN
+F 1 "1N4148W" V 5455 3070 50  0000 R CNN
+F 2 "_reviung-kbd:D3_SMD_1side" H 5500 2975 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 5500 3150 50  0001 C CNN
+	1    5500 3150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L _reviung-kbd:SW_PUSH SW28
+U 1 1 618EDE33
+P 6475 3000
+F 0 "SW28" H 6475 3255 50  0000 C CNN
+F 1 "V" H 6475 3164 50  0000 C CNN
+F 2 "_reviung-kbd:MXOnly-1U-Hotswap" H 6475 3000 50  0001 C CNN
+F 3 "" H 6475 3000 50  0000 C CNN
+	1    6475 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148W D27
+U 1 1 618EDE39
+P 6775 3150
+F 0 "D27" V 6821 3070 50  0000 R CNN
+F 1 "1N4148W" V 6730 3070 50  0000 R CNN
+F 2 "_reviung-kbd:D3_SMD_1side" H 6775 2975 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 6775 3150 50  0001 C CNN
+	1    6775 3150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D30
+U 1 1 618EDE5D
+P 10100 3150
+F 0 "D30" V 10146 3070 50  0000 R CNN
+F 1 "1N4148W" V 10055 3070 50  0000 R CNN
+F 2 "_reviung-kbd:D3_SMD_1side" H 10100 2975 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 10100 3150 50  0001 C CNN
+	1    10100 3150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L _reviung-kbd:SW_PUSH SW32
+U 1 1 61906238
+P 1875 3600
+F 0 "SW32" H 1875 3855 50  0000 C CNN
+F 1 "7" H 1875 3764 50  0000 C CNN
+F 2 "_reviung-kbd:MXOnly-1U-Hotswap" H 1875 3600 50  0001 C CNN
+F 3 "" H 1875 3600 50  0000 C CNN
+	1    1875 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148W D31
+U 1 1 6190623E
+P 2175 3750
+F 0 "D31" V 2221 3670 50  0000 R CNN
+F 1 "1N4148W" V 2130 3670 50  0000 R CNN
+F 2 "_reviung-kbd:D3_SMD_1side" H 2175 3575 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 2175 3750 50  0001 C CNN
+	1    2175 3750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L _reviung-kbd:SW_PUSH SW33
+U 1 1 61906244
+P 2875 3600
+F 0 "SW33" H 2875 3855 50  0000 C CNN
+F 1 "8" H 2875 3764 50  0000 C CNN
+F 2 "_reviung-kbd:MXOnly-1U-Hotswap" H 2875 3600 50  0001 C CNN
+F 3 "" H 2875 3600 50  0000 C CNN
+	1    2875 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148W D32
+U 1 1 6190624A
+P 3175 3750
+F 0 "D32" V 3221 3670 50  0000 R CNN
+F 1 "1N4148W" V 3130 3670 50  0000 R CNN
+F 2 "_reviung-kbd:D3_SMD_1side" H 3175 3575 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 3175 3750 50  0001 C CNN
+	1    3175 3750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D34
+U 1 1 61906262
+P 5500 3750
+F 0 "D34" V 5546 3670 50  0000 R CNN
+F 1 "1N4148W" V 5455 3670 50  0000 R CNN
+F 2 "_reviung-kbd:D3_SMD_1side" H 5500 3575 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 5500 3750 50  0001 C CNN
+	1    5500 3750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L _reviung-kbd:SW_PUSH SW36
+U 1 1 61906268
+P 6475 3600
+F 0 "SW36" H 6475 3855 50  0000 C CNN
+F 1 "I" H 6475 3764 50  0000 C CNN
+F 2 "_reviung-kbd:MXOnly-1U-Hotswap" H 6475 3600 50  0001 C CNN
+F 3 "" H 6475 3600 50  0000 C CNN
+	1    6475 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148W D35
+U 1 1 6190626E
+P 6775 3750
+F 0 "D35" V 6821 3670 50  0000 R CNN
+F 1 "1N4148W" V 6730 3670 50  0000 R CNN
+F 2 "_reviung-kbd:D3_SMD_1side" H 6775 3575 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 6775 3750 50  0001 C CNN
+	1    6775 3750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L _reviung-kbd:SW_PUSH SW38
+U 1 1 61906280
+P 8800 3600
+F 0 "SW38" H 8800 3855 50  0000 C CNN
+F 1 "P" H 8800 3764 50  0000 C CNN
+F 2 "_reviung-kbd:MXOnly-1U-Hotswap" H 8800 3600 50  0001 C CNN
+F 3 "" H 8800 3600 50  0000 C CNN
+	1    8800 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148W D37
+U 1 1 61906286
+P 9100 3750
+F 0 "D37" V 9146 3670 50  0000 R CNN
+F 1 "1N4148W" V 9055 3670 50  0000 R CNN
+F 2 "_reviung-kbd:D3_SMD_1side" H 9100 3575 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 9100 3750 50  0001 C CNN
+	1    9100 3750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L _reviung-kbd:SW_PUSH SW39
+U 1 1 6190628C
+P 9800 3600
+F 0 "SW39" H 9800 3855 50  0000 C CNN
+F 1 "1.5U" H 9800 3764 50  0000 C CNN
+F 2 "_reviung-kbd:MXOnly-1.5U-Hotswap" H 9800 3600 50  0001 C CNN
+F 3 "" H 9800 3600 50  0000 C CNN
+	1    9800 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148W D38
+U 1 1 61906292
+P 10100 3750
+F 0 "D38" V 10146 3670 50  0000 R CNN
+F 1 "1N4148W" V 10055 3670 50  0000 R CNN
+F 2 "_reviung-kbd:D3_SMD_1side" H 10100 3575 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 10100 3750 50  0001 C CNN
+	1    10100 3750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L _reviung-kbd:SW_PUSH SW40
+U 1 1 61906298
+P 1875 4200
+F 0 "SW40" H 1875 4455 50  0000 C CNN
+F 1 "K" H 1875 4364 50  0000 C CNN
+F 2 "_reviung-kbd:MXOnly-1U-Hotswap" H 1875 4200 50  0001 C CNN
+F 3 "" H 1875 4200 50  0000 C CNN
+	1    1875 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148W D39
+U 1 1 6190629E
+P 2175 4350
+F 0 "D39" V 2221 4270 50  0000 R CNN
+F 1 "1N4148W" V 2130 4270 50  0000 R CNN
+F 2 "_reviung-kbd:D3_SMD_1side" H 2175 4175 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 2175 4350 50  0001 C CNN
+	1    2175 4350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L _reviung-kbd:SW_PUSH SW41
+U 1 1 619062A4
+P 2875 4200
+F 0 "SW41" H 2875 4455 50  0000 C CNN
+F 1 "L" H 2875 4364 50  0000 C CNN
+F 2 "_reviung-kbd:MXOnly-1U-Hotswap" H 2875 4200 50  0001 C CNN
+F 3 "" H 2875 4200 50  0000 C CNN
+	1    2875 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148W D40
+U 1 1 619062AA
+P 3175 4350
+F 0 "D40" V 3221 4270 50  0000 R CNN
+F 1 "1N4148W" V 3130 4270 50  0000 R CNN
+F 2 "_reviung-kbd:D3_SMD_1side" H 3175 4175 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 3175 4350 50  0001 C CNN
+	1    3175 4350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L _reviung-kbd:SW_PUSH SW44
+U 1 1 619062BC
+P 5200 4200
+F 0 "SW44" H 5200 4455 50  0000 C CNN
+F 1 "1.25U" H 5200 4364 50  0000 C CNN
+F 2 "_reviung-kbd:MXOnly-1.25U-Hotswap" H 5200 4200 50  0001 C CNN
+F 3 "" H 5200 4200 50  0000 C CNN
+	1    5200 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148W D41
+U 1 1 619062C2
+P 5500 4350
+F 0 "D41" V 5546 4270 50  0000 R CNN
+F 1 "1N4148W" V 5455 4270 50  0000 R CNN
+F 2 "_reviung-kbd:D3_SMD_1side" H 5500 4175 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 5500 4350 50  0001 C CNN
+	1    5500 4350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L _reviung-kbd:SW_PUSH SW45
+U 1 1 619062C8
+P 6475 4200
+F 0 "SW45" H 6475 4455 50  0000 C CNN
+F 1 "<" H 6475 4364 50  0000 C CNN
+F 2 "_reviung-kbd:MXOnly-1U-Hotswap" H 6475 4200 50  0001 C CNN
+F 3 "" H 6475 4200 50  0000 C CNN
+	1    6475 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148W D42
+U 1 1 619062CE
+P 6775 4350
+F 0 "D42" V 6821 4270 50  0000 R CNN
+F 1 "1N4148W" V 6730 4270 50  0000 R CNN
+F 2 "_reviung-kbd:D3_SMD_1side" H 6775 4175 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 6775 4350 50  0001 C CNN
+	1    6775 4350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L _reviung-kbd:SW_PUSH SW48
+U 1 1 619062E0
+P 8800 4200
+F 0 "SW48" H 8800 4455 50  0000 C CNN
+F 1 "1.75U" H 8800 4364 50  0000 C CNN
+F 2 "_reviung-kbd:MXOnly-1.75U-Hotswap" H 8800 4200 50  0001 C CNN
+F 3 "" H 8800 4200 50  0000 C CNN
+	1    8800 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148W D43
+U 1 1 619062E6
+P 9100 4350
+F 0 "D43" V 9146 4270 50  0000 R CNN
+F 1 "1N4148W" V 9055 4270 50  0000 R CNN
+F 2 "_reviung-kbd:D3_SMD_1side" H 9100 4175 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 9100 4350 50  0001 C CNN
+	1    9100 4350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L _reviung-kbd:SW_PUSH SW50
+U 1 1 61906304
+P 2875 4800
+F 0 "SW50" H 2875 5055 50  0000 C CNN
+F 1 "1.25U" H 2875 4964 50  0000 C CNN
+F 2 "_reviung-kbd:MXOnly-1.25U-Hotswap" H 2875 4800 50  0001 C CNN
+F 3 "" H 2875 4800 50  0000 C CNN
+	1    2875 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148W D47
+U 1 1 6190630A
+P 3175 4950
+F 0 "D47" V 3221 4870 50  0000 R CNN
+F 1 "1N4148W" V 3130 4870 50  0000 R CNN
+F 2 "_reviung-kbd:D3_SMD_1side" H 3175 4775 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 3175 4950 50  0001 C CNN
+	1    3175 4950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L _reviung-kbd:SW_PUSH SW52
+U 1 1 6190631C
+P 5200 4800
+F 0 "SW52" H 5200 5055 50  0000 C CNN
+F 1 "2.75U" H 5200 4964 50  0000 C CNN
+F 2 "_reviung-kbd:MXOnly-2.75U-Hotswap" H 5200 4800 50  0001 C CNN
+F 3 "" H 5200 4800 50  0000 C CNN
+	1    5200 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148W D49
+U 1 1 61906322
+P 5500 4950
+F 0 "D49" V 5546 4870 50  0000 R CNN
+F 1 "1N4148W" V 5455 4870 50  0000 R CNN
+F 2 "_reviung-kbd:D3_SMD_1side" H 5500 4775 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 5500 4950 50  0001 C CNN
+	1    5500 4950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L _reviung-kbd:SW_PUSH SW53
+U 1 1 61906328
+P 6200 4825
+F 0 "SW53" H 6200 5080 50  0000 C CNN
+F 1 "6.25U" H 6200 4989 50  0000 C CNN
+F 2 "_reviung-kbd:MXOnly-6.25U-Hotswap-ReversedStabilizers" H 6200 4825 50  0001 C CNN
+F 3 "" H 6200 4825 50  0000 C CNN
+	1    6200 4825
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148W D53
+U 1 1 6190632E
+P 6775 5050
+F 0 "D53" V 6821 4970 50  0000 R CNN
+F 1 "1N4148W" V 6730 4970 50  0000 R CNN
+F 2 "_reviung-kbd:D3_SMD_1side" H 6775 4875 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 6775 5050 50  0001 C CNN
+	1    6775 5050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L _reviung-kbd:SW_PUSH SW56
+U 1 1 61906340
+P 8800 4825
+F 0 "SW56" H 8800 5080 50  0000 C CNN
+F 1 "1.25U" H 8800 4989 50  0000 C CNN
+F 2 "_reviung-kbd:MXOnly-1.25U-Hotswap" H 8800 4825 50  0001 C CNN
+F 3 "" H 8800 4825 50  0000 C CNN
+	1    8800 4825
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148W D51
+U 1 1 61906346
+P 9100 4975
+F 0 "D51" V 9146 4895 50  0000 R CNN
+F 1 "1N4148W" V 9055 4895 50  0000 R CNN
+F 2 "_reviung-kbd:D3_SMD_1side" H 9100 4800 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 9100 4975 50  0001 C CNN
+	1    9100 4975
+	0    -1   -1   0   
+$EndComp
+$Comp
+L _reviung-kbd:SW_PUSH SW57
+U 1 1 6190634C
+P 9800 4825
+F 0 "SW57" H 9800 5080 50  0000 C CNN
+F 1 "1.5U" H 9800 4989 50  0000 C CNN
+F 2 "_reviung-kbd:MXOnly-1.5U-Hotswap" H 9800 4825 50  0001 C CNN
+F 3 "" H 9800 4825 50  0000 C CNN
+	1    9800 4825
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148W D52
+U 1 1 61906352
+P 10100 4975
+F 0 "D52" V 10146 4895 50  0000 R CNN
+F 1 "1N4148W" V 10055 4895 50  0000 R CNN
+F 2 "_reviung-kbd:D3_SMD_1side" H 10100 4800 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 10100 4975 50  0001 C CNN
+	1    10100 4975
+	0    -1   -1   0   
+$EndComp
+$Comp
+L _reviung-kbd:SW_PUSH SW15
+U 1 1 618C0C7E
+P 1550 2400
+F 0 "SW15" H 1550 2655 50  0000 C CNN
+F 1 "1.25U" H 1550 2564 50  0000 C CNN
+F 2 "_reviung-kbd:MXOnly-1.25U-Hotswap" H 1550 2400 50  0001 C CNN
+F 3 "" H 1550 2400 50  0000 C CNN
+	1    1550 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148W D22
+U 1 1 618C0C84
+P 2175 2625
+F 0 "D22" V 2221 2545 50  0000 R CNN
+F 1 "1N4148W" V 2130 2545 50  0000 R CNN
+F 2 "_reviung-kbd:D3_SMD_1side" H 2175 2450 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 2175 2625 50  0001 C CNN
+	1    2175 2625
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D45
+U 1 1 619062DA
+P 8050 4425
+F 0 "D45" V 8096 4345 50  0000 R CNN
+F 1 "1N4148W" V 8005 4345 50  0000 R CNN
+F 2 "_reviung-kbd:D3_SMD_1side" H 8050 4250 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 8050 4425 50  0001 C CNN
+	1    8050 4425
+	0    -1   -1   0   
+$EndComp
+$Comp
+L _reviung-kbd:SW_PUSH SW46
+U 1 1 619062D4
+P 7475 4200
+F 0 "SW46" H 7475 4455 50  0000 C CNN
+F 1 "1U" H 7475 4364 50  0000 C CNN
+F 2 "_reviung-kbd:MXOnly-1U-Hotswap" H 7475 4200 50  0001 C CNN
+F 3 "" H 7475 4200 50  0000 C CNN
+	1    7475 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148W D36
+U 1 1 6190627A
+P 8050 3750
+F 0 "D36" V 8096 3670 50  0000 R CNN
+F 1 "1N4148W" V 8005 3670 50  0000 R CNN
+F 2 "_reviung-kbd:D3_SMD_1side" H 8050 3575 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 8050 3750 50  0001 C CNN
+	1    8050 3750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D28
+U 1 1 618EDE45
+P 8050 3150
+F 0 "D28" V 8096 3070 50  0000 R CNN
+F 1 "1N4148W" V 8005 3070 50  0000 R CNN
+F 2 "_reviung-kbd:D3_SMD_1side" H 8050 2975 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 8050 3150 50  0001 C CNN
+	1    8050 3150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L _reviung-kbd:SW_PUSH SW29
+U 1 1 618EDE3F
+P 7750 3000
+F 0 "SW29" H 7750 3255 50  0000 C CNN
+F 1 "B" H 7750 3164 50  0000 C CNN
+F 2 "_reviung-kbd:MXOnly-1U-Hotswap" H 7750 3000 50  0001 C CNN
+F 3 "" H 7750 3000 50  0000 C CNN
+	1    7750 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148W D19
+U 1 1 618EDDE5
+P 8050 2550
+F 0 "D19" V 8096 2470 50  0000 R CNN
+F 1 "1N4148W" V 8005 2470 50  0000 R CNN
+F 2 "_reviung-kbd:D3_SMD_1side" H 8050 2375 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 8050 2550 50  0001 C CNN
+	1    8050 2550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L _reviung-kbd:SW_PUSH SW21
+U 1 1 618EDDDF
+P 7750 2400
+F 0 "SW21" H 7750 2655 50  0000 C CNN
+F 1 "G" H 7750 2564 50  0000 C CNN
+F 2 "_reviung-kbd:MXOnly-1U-Hotswap" H 7750 2400 50  0001 C CNN
+F 3 "" H 7750 2400 50  0000 C CNN
+	1    7750 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148W D12
+U 1 1 618DAEB4
+P 8050 1950
+F 0 "D12" V 8096 1870 50  0000 R CNN
+F 1 "1N4148W" V 8005 1870 50  0000 R CNN
+F 2 "_reviung-kbd:D3_SMD_1side" H 8050 1775 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 8050 1950 50  0001 C CNN
+	1    8050 1950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L _reviung-kbd:SW_PUSH SW12
+U 1 1 618DAEAE
+P 7750 1800
+F 0 "SW12" H 7750 2055 50  0000 C CNN
+F 1 "T" H 7750 1964 50  0000 C CNN
+F 2 "_reviung-kbd:MXOnly-1U-Hotswap" H 7750 1800 50  0001 C CNN
+F 3 "" H 7750 1800 50  0000 C CNN
+	1    7750 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148W D4
+U 1 1 618CDAEA
+P 8050 1350
+F 0 "D4" V 8096 1270 50  0000 R CNN
+F 1 "1N4148W" V 8005 1270 50  0000 R CNN
+F 2 "_reviung-kbd:D3_SMD_1side" H 8050 1175 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 8050 1350 50  0001 C CNN
+	1    8050 1350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L _reviung-kbd:SW_PUSH SW4
+U 1 1 618CDAE4
+P 7750 1200
+F 0 "SW4" H 7750 1455 50  0000 C CNN
+F 1 "4" H 7750 1364 50  0000 C CNN
+F 2 "_reviung-kbd:MXOnly-1U-Hotswap" H 7750 1200 50  0001 C CNN
+F 3 "" H 7750 1200 50  0000 C CNN
+	1    7750 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L _reviung-kbd:SW_PUSH SW47
+U 1 1 618F9D32
+P 8125 4200
+F 0 "SW47" H 8125 4455 50  0000 C CNN
+F 1 "2.75U" H 8125 4364 50  0000 C CNN
+F 2 "_reviung-kbd:MXOnly-2.75U-Hotswap-ReversedStabilizers" H 8125 4200 50  0001 C CNN
+F 3 "" H 8125 4200 50  0000 C CNN
+	1    8125 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L _reviung-kbd:SW_PUSH SW54
+U 1 1 618FA5CC
+P 6850 4825
+F 0 "SW54" H 6850 5080 50  0000 C CNN
+F 1 "2.25U" H 6850 4989 50  0000 C CNN
+F 2 "_reviung-kbd:MXOnly-2.25U-Hotswap" H 6850 4825 50  0001 C CNN
+F 3 "" H 6850 4825 50  0000 C CNN
+	1    6850 4825
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 2200 1900 2400
+Wire Wire Line
+	1575 3000 1575 3600
+Wire Wire Line
+	1575 3600 1575 4200
+Connection ~ 1575 3600
+Wire Wire Line
+	1575 1800 1575 950 
+$Comp
+L Diode:1N4148W D46
+U 1 1 619062FE
+P 2175 4950
+F 0 "D46" V 2221 4870 50  0000 R CNN
+F 1 "1N4148W" V 2130 4870 50  0000 R CNN
+F 2 "_reviung-kbd:D3_SMD_1side" H 2175 4775 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 2175 4950 50  0001 C CNN
+	1    2175 4950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L _reviung-kbd:SW_PUSH SW49
+U 1 1 619062F8
+P 1875 4800
+F 0 "SW49" H 1875 5055 50  0000 C CNN
+F 1 "1.5U" H 1875 4964 50  0000 C CNN
+F 2 "_reviung-kbd:MXOnly-1.5U-Hotswap" H 1875 4800 50  0001 C CNN
+F 3 "" H 1875 4800 50  0000 C CNN
+	1    1875 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1575 4200 1575 4800
+Connection ~ 1575 4200
+Wire Wire Line
+	2575 950  2575 1800
+Wire Wire Line
+	2575 1800 2575 2400
+Connection ~ 2575 1800
+Wire Wire Line
+	2575 2400 2575 3000
+Connection ~ 2575 2400
+Wire Wire Line
+	2575 3000 2575 3600
+Connection ~ 2575 3000
+Wire Wire Line
+	2575 3600 2575 4200
+Connection ~ 2575 3600
+Wire Wire Line
+	2575 4200 2575 4800
+Connection ~ 2575 4200
+$Comp
+L _reviung-kbd:SW_PUSH SW43
+U 1 1 618E82E6
+P 4500 4200
+F 0 "SW43" H 4500 4455 50  0000 C CNN
+F 1 "2.25U" H 4500 4364 50  0000 C CNN
+F 2 "_reviung-kbd:MXOnly-2.25U-Hotswap-ReversedStabilizers" H 4500 4200 50  0001 C CNN
+F 3 "" H 4500 4200 50  0000 C CNN
+	1    4500 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148W D48
+U 1 1 61906316
+P 4450 4950
+F 0 "D48" V 4496 4870 50  0000 R CNN
+F 1 "1N4148W" V 4405 4870 50  0000 R CNN
+F 2 "_reviung-kbd:D3_SMD_1side" H 4450 4775 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 4450 4950 50  0001 C CNN
+	1    4450 4950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L _reviung-kbd:SW_PUSH SW51
+U 1 1 61906310
+P 4150 4800
+F 0 "SW51" H 4150 5055 50  0000 C CNN
+F 1 "1.25U" H 4150 4964 50  0000 C CNN
+F 2 "_reviung-kbd:MXOnly-1.25U-Hotswap" H 4150 4800 50  0001 C CNN
+F 3 "" H 4150 4800 50  0000 C CNN
+	1    4150 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148W D44
+U 1 1 619062B6
+P 4450 4425
+F 0 "D44" V 4496 4345 50  0000 R CNN
+F 1 "1N4148W" V 4405 4345 50  0000 R CNN
+F 2 "_reviung-kbd:D3_SMD_1side" H 4450 4250 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 4450 4425 50  0001 C CNN
+	1    4450 4425
+	0    -1   -1   0   
+$EndComp
+$Comp
+L _reviung-kbd:SW_PUSH SW42
+U 1 1 619062B0
+P 3850 4200
+F 0 "SW42" H 3850 4455 50  0000 C CNN
+F 1 "1U" H 3850 4364 50  0000 C CNN
+F 2 "_reviung-kbd:MXOnly-1U-Hotswap" H 3850 4200 50  0001 C CNN
+F 3 "" H 3850 4200 50  0000 C CNN
+	1    3850 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148W D25
+U 1 1 618EDE21
+P 4450 3150
+F 0 "D25" V 4496 3070 50  0000 R CNN
+F 1 "1N4148W" V 4405 3070 50  0000 R CNN
+F 2 "_reviung-kbd:D3_SMD_1side" H 4450 2975 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 4450 3150 50  0001 C CNN
+	1    4450 3150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L _reviung-kbd:SW_PUSH SW26
+U 1 1 618EDE1B
+P 4150 3000
+F 0 "SW26" H 4150 3255 50  0000 C CNN
+F 1 "X" H 4150 3164 50  0000 C CNN
+F 2 "_reviung-kbd:MXOnly-1U-Hotswap" H 4150 3000 50  0001 C CNN
+F 3 "" H 4150 3000 50  0000 C CNN
+	1    4150 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148W D16
+U 1 1 618EDDC1
+P 4450 2550
+F 0 "D16" V 4496 2470 50  0000 R CNN
+F 1 "1N4148W" V 4405 2470 50  0000 R CNN
+F 2 "_reviung-kbd:D3_SMD_1side" H 4450 2375 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 4450 2550 50  0001 C CNN
+	1    4450 2550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L _reviung-kbd:SW_PUSH SW18
+U 1 1 618EDDBB
+P 4150 2400
+F 0 "SW18" H 4150 2655 50  0000 C CNN
+F 1 "S" H 4150 2564 50  0000 C CNN
+F 2 "_reviung-kbd:MXOnly-1U-Hotswap" H 4150 2400 50  0001 C CNN
+F 3 "" H 4150 2400 50  0000 C CNN
+	1    4150 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148W D9
+U 1 1 618DAE90
+P 4450 1950
+F 0 "D9" V 4496 1870 50  0000 R CNN
+F 1 "1N4148W" V 4405 1870 50  0000 R CNN
+F 2 "_reviung-kbd:D3_SMD_1side" H 4450 1775 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 4450 1950 50  0001 C CNN
+	1    4450 1950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L _reviung-kbd:SW_PUSH SW9
+U 1 1 618DAE8A
+P 4150 1800
+F 0 "SW9" H 4150 2055 50  0000 C CNN
+F 1 "W" H 4150 1964 50  0000 C CNN
+F 2 "_reviung-kbd:MXOnly-1U-Hotswap" H 4150 1800 50  0001 C CNN
+F 3 "" H 4150 1800 50  0000 C CNN
+	1    4150 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148W D1
+U 1 1 618C4A41
+P 4450 1350
+F 0 "D1" V 4496 1270 50  0000 R CNN
+F 1 "1N4148W" V 4405 1270 50  0000 R CNN
+F 2 "_reviung-kbd:D3_SMD_1side" H 4450 1175 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 4450 1350 50  0001 C CNN
+	1    4450 1350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L _reviung-kbd:SW_PUSH SW1
+U 1 1 618C4A3B
+P 4150 1200
+F 0 "SW1" H 4150 1455 50  0000 C CNN
+F 1 "1" H 4150 1364 50  0000 C CNN
+F 2 "_reviung-kbd:MXOnly-1U-Hotswap" H 4150 1200 50  0001 C CNN
+F 3 "" H 4150 1200 50  0000 C CNN
+	1    4150 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1250 2400 1250 2200
+Wire Wire Line
+	1250 2200 1575 2200
+Wire Wire Line
+	1250 2400 1250 2700
+Wire Wire Line
+	1575 2700 1575 3000
+Connection ~ 1250 2400
+Connection ~ 1575 3000
+Wire Wire Line
+	4200 4000 4200 4200
+Wire Wire Line
+	4150 4200 4150 4275
+Wire Wire Line
+	4150 4275 4450 4275
+Wire Wire Line
+	1250 2700 1575 2700
+Wire Wire Line
+	1900 2400 1900 2700
+Wire Wire Line
+	1900 2700 1575 2700
+Connection ~ 1900 2400
+Connection ~ 1575 2700
+Wire Wire Line
+	1575 1800 1575 2200
+Connection ~ 1575 1800
+Connection ~ 1575 2200
+Wire Wire Line
+	1575 2200 1900 2200
+Wire Wire Line
+	1850 2400 1850 2475
+Wire Wire Line
+	1850 2475 2175 2475
+Wire Wire Line
+	2175 2475 2500 2475
+Wire Wire Line
+	2500 2475 2500 2400
+Connection ~ 2175 2475
+Wire Wire Line
+	3850 975  3850 1200
+Wire Wire Line
+	3850 1200 3850 1800
+Connection ~ 3850 1200
+Wire Wire Line
+	3850 1800 3850 2400
+Connection ~ 3850 1800
+Wire Wire Line
+	3850 2400 3850 3000
+Connection ~ 3850 2400
+Connection ~ 3850 3000
+Connection ~ 3850 4000
+Wire Wire Line
+	3850 4000 4200 4000
+Wire Wire Line
+	3850 4500 3850 4800
+Wire Wire Line
+	4200 4200 4200 4500
+Wire Wire Line
+	4200 4500 3850 4500
+Connection ~ 4200 4200
+Wire Wire Line
+	4900 975  4900 1200
+Wire Wire Line
+	4900 1200 4900 1800
+Connection ~ 4900 1200
+Wire Wire Line
+	4900 1800 4900 2400
+Connection ~ 4900 1800
+Wire Wire Line
+	4900 2400 4900 3000
+Connection ~ 4900 2400
+Wire Wire Line
+	4900 4200 4900 4800
+Wire Wire Line
+	6175 1000 6175 1200
+Wire Wire Line
+	6175 1200 6175 1800
+Connection ~ 6175 1200
+Wire Wire Line
+	6175 1800 6175 2400
+Connection ~ 6175 1800
+Wire Wire Line
+	6175 2400 6175 3000
+Connection ~ 6175 2400
+Wire Wire Line
+	6175 3000 6175 3600
+Connection ~ 6175 3000
+Wire Wire Line
+	5900 4625 5900 4825
+Wire Wire Line
+	6550 4825 6550 4625
+Wire Wire Line
+	6500 4825 6500 4900
+Wire Wire Line
+	6500 4900 6775 4900
+Wire Wire Line
+	7150 4900 7150 4825
+Connection ~ 4900 4200
+Connection ~ 4900 3000
+$Comp
+L _reviung-kbd:SW_PUSH SW35
+U 1 1 6190625C
+P 5200 3600
+F 0 "SW35" H 5200 3855 50  0000 C CNN
+F 1 "0" H 5200 3764 50  0000 C CNN
+F 2 "_reviung-kbd:MXOnly-1U-Hotswap" H 5200 3600 50  0001 C CNN
+F 3 "" H 5200 3600 50  0000 C CNN
+	1    5200 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L _reviung-kbd:SW_PUSH SW37
+U 1 1 61906274
+P 7750 3600
+F 0 "SW37" H 7750 3855 50  0000 C CNN
+F 1 "0" H 7750 3764 50  0000 C CNN
+F 2 "_reviung-kbd:MXOnly-1U-Hotswap" H 7750 3600 50  0001 C CNN
+F 3 "" H 7750 3600 50  0000 C CNN
+	1    7750 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7450 1200 7450 1800
+Wire Wire Line
+	7450 1800 7450 2400
+Connection ~ 7450 1800
+Wire Wire Line
+	7450 2400 7450 3000
+Connection ~ 7450 2400
+Connection ~ 7450 3000
+Wire Wire Line
+	7175 4000 7175 4200
+Connection ~ 6775 4900
+Wire Wire Line
+	6775 4900 7150 4900
+Wire Wire Line
+	7175 4200 7175 4500
+Wire Wire Line
+	7175 4500 7450 4500
+Connection ~ 7175 4200
+Wire Wire Line
+	7825 4500 7450 4500
+Connection ~ 7450 4500
+$Comp
+L _reviung-kbd:SW_PUSH SW31
+U 1 1 618EDE57
+P 9800 3000
+F 0 "SW31" H 9800 3255 50  0000 C CNN
+F 1 "M" H 9800 3164 50  0000 C CNN
+F 2 "_reviung-kbd:MXOnly-1U-Hotswap" H 9800 3000 50  0001 C CNN
+F 3 "" H 9800 3000 50  0000 C CNN
+	1    9800 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148W D29
+U 1 1 618EDE51
+P 9100 3150
+F 0 "D29" V 9146 3070 50  0000 R CNN
+F 1 "1N4148W" V 9055 3070 50  0000 R CNN
+F 2 "_reviung-kbd:D3_SMD_1side" H 9100 2975 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 9100 3150 50  0001 C CNN
+	1    9100 3150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L _reviung-kbd:SW_PUSH SW30
+U 1 1 618EDE4B
+P 8800 3000
+F 0 "SW30" H 8800 3255 50  0000 C CNN
+F 1 "N" H 8800 3164 50  0000 C CNN
+F 2 "_reviung-kbd:MXOnly-1U-Hotswap" H 8800 3000 50  0001 C CNN
+F 3 "" H 8800 3000 50  0000 C CNN
+	1    8800 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L _reviung-kbd:SW_PUSH SW23
+U 1 1 618EDDF7
+P 9800 2400
+F 0 "SW23" H 9800 2655 50  0000 C CNN
+F 1 "J" H 9800 2564 50  0000 C CNN
+F 2 "_reviung-kbd:MXOnly-1U-Hotswap" H 9800 2400 50  0001 C CNN
+F 3 "" H 9800 2400 50  0000 C CNN
+	1    9800 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148W D20
+U 1 1 618EDDF1
+P 9100 2550
+F 0 "D20" V 9146 2470 50  0000 R CNN
+F 1 "1N4148W" V 9055 2470 50  0000 R CNN
+F 2 "_reviung-kbd:D3_SMD_1side" H 9100 2375 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 9100 2550 50  0001 C CNN
+	1    9100 2550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L _reviung-kbd:SW_PUSH SW22
+U 1 1 618EDDEB
+P 8800 2400
+F 0 "SW22" H 8800 2655 50  0000 C CNN
+F 1 "H" H 8800 2564 50  0000 C CNN
+F 2 "_reviung-kbd:MXOnly-1U-Hotswap" H 8800 2400 50  0001 C CNN
+F 3 "" H 8800 2400 50  0000 C CNN
+	1    8800 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L _reviung-kbd:SW_PUSH SW14
+U 1 1 618DAEC6
+P 9800 1800
+F 0 "SW14" H 9800 2055 50  0000 C CNN
+F 1 "U" H 9800 1964 50  0000 C CNN
+F 2 "_reviung-kbd:MXOnly-1U-Hotswap" H 9800 1800 50  0001 C CNN
+F 3 "" H 9800 1800 50  0000 C CNN
+	1    9800 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148W D13
+U 1 1 618DAEC0
+P 9100 1950
+F 0 "D13" V 9146 1870 50  0000 R CNN
+F 1 "1N4148W" V 9055 1870 50  0000 R CNN
+F 2 "_reviung-kbd:D3_SMD_1side" H 9100 1775 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 9100 1950 50  0001 C CNN
+	1    9100 1950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L _reviung-kbd:SW_PUSH SW13
+U 1 1 618DAEBA
+P 8800 1800
+F 0 "SW13" H 8800 2055 50  0000 C CNN
+F 1 "Y" H 8800 1964 50  0000 C CNN
+F 2 "_reviung-kbd:MXOnly-1U-Hotswap" H 8800 1800 50  0001 C CNN
+F 3 "" H 8800 1800 50  0000 C CNN
+	1    8800 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L _reviung-kbd:SW_PUSH SW6
+U 1 1 618CDAFC
+P 9800 1200
+F 0 "SW6" H 9800 1455 50  0000 C CNN
+F 1 "6" H 9800 1364 50  0000 C CNN
+F 2 "_reviung-kbd:MXOnly-1U-Hotswap" H 9800 1200 50  0001 C CNN
+F 3 "" H 9800 1200 50  0000 C CNN
+	1    9800 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148W D5
+U 1 1 618CDAF6
+P 9100 1350
+F 0 "D5" V 9146 1270 50  0000 R CNN
+F 1 "1N4148W" V 9055 1270 50  0000 R CNN
+F 2 "_reviung-kbd:D3_SMD_1side" H 9100 1175 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 9100 1350 50  0001 C CNN
+	1    9100 1350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L _reviung-kbd:SW_PUSH SW5
+U 1 1 618CDAF0
+P 8800 1200
+F 0 "SW5" H 8800 1455 50  0000 C CNN
+F 1 "5" H 8800 1364 50  0000 C CNN
+F 2 "_reviung-kbd:MXOnly-1U-Hotswap" H 8800 1200 50  0001 C CNN
+F 3 "" H 8800 1200 50  0000 C CNN
+	1    8800 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8500 1000 8500 1200
+Wire Wire Line
+	8500 1200 8500 1800
+Connection ~ 8500 1200
+Wire Wire Line
+	8500 1800 8500 2400
+Connection ~ 8500 1800
+Wire Wire Line
+	8500 2400 8500 3000
+Connection ~ 8500 2400
+Wire Wire Line
+	8500 3000 8500 3600
+Connection ~ 8500 3000
+Wire Wire Line
+	9500 1000 9500 1200
+Wire Wire Line
+	9500 1200 9500 1800
+Connection ~ 9500 1200
+Wire Wire Line
+	9500 1800 9500 2400
+Connection ~ 9500 1800
+Wire Wire Line
+	9500 2400 9500 3000
+Connection ~ 9500 2400
+Wire Wire Line
+	9500 3000 9500 3600
+Connection ~ 9500 3000
+Wire Wire Line
+	10100 1500 9100 1500
+Wire Wire Line
+	9100 1500 8050 1500
+Connection ~ 9100 1500
+Wire Wire Line
+	8050 1500 6775 1500
+Connection ~ 8050 1500
+Wire Wire Line
+	6775 1500 5500 1500
+Connection ~ 6775 1500
+Wire Wire Line
+	5500 1500 4450 1500
+Connection ~ 5500 1500
+Wire Wire Line
+	4450 1500 1125 1500
+Connection ~ 4450 1500
+Wire Wire Line
+	10100 2100 9100 2100
+Wire Wire Line
+	9100 2100 8050 2100
+Connection ~ 9100 2100
+Wire Wire Line
+	8050 2100 6775 2100
+Connection ~ 8050 2100
+Connection ~ 6775 2100
+Wire Wire Line
+	4450 2100 5500 2100
+Connection ~ 5500 2100
+Wire Wire Line
+	5500 2100 6775 2100
+Wire Wire Line
+	4450 2100 3175 2100
+Connection ~ 4450 2100
+Wire Wire Line
+	3175 2100 2175 2100
+Connection ~ 3175 2100
+Wire Wire Line
+	2175 2100 1125 2100
+Connection ~ 2175 2100
+Wire Wire Line
+	10100 2700 9100 2700
+Wire Wire Line
+	9100 2700 8050 2700
+Connection ~ 9100 2700
+Wire Wire Line
+	8050 2700 6775 2700
+Connection ~ 8050 2700
+Wire Wire Line
+	6775 2700 5500 2700
+Connection ~ 6775 2700
+Wire Wire Line
+	5500 2700 4450 2700
+Connection ~ 5500 2700
+Wire Wire Line
+	4450 2700 3175 2700
+Connection ~ 4450 2700
+Wire Wire Line
+	3175 2700 2650 2700
+Wire Wire Line
+	2650 2700 2650 2775
+Wire Wire Line
+	2650 2775 2175 2775
+Connection ~ 3175 2700
+Wire Wire Line
+	2175 2775 1125 2775
+Connection ~ 2175 2775
+Wire Wire Line
+	4800 4200 4800 4275
+Wire Wire Line
+	4800 4275 4450 4275
+Connection ~ 4450 4275
+Wire Wire Line
+	3550 4000 3550 4200
+Wire Wire Line
+	3550 4000 3850 4000
+Wire Wire Line
+	3550 4200 3550 4500
+Connection ~ 3550 4200
+Wire Wire Line
+	3850 4500 3550 4500
+Connection ~ 3850 4500
+Wire Wire Line
+	10100 3300 9100 3300
+Wire Wire Line
+	9100 3300 8050 3300
+Connection ~ 9100 3300
+Wire Wire Line
+	8050 3300 6775 3300
+Connection ~ 8050 3300
+Wire Wire Line
+	6775 3300 5500 3300
+Wire Wire Line
+	5500 3300 4450 3300
+Connection ~ 6775 3300
+Connection ~ 5500 3300
+Wire Wire Line
+	4450 3300 3175 3300
+Connection ~ 4450 3300
+Wire Wire Line
+	3175 3300 2175 3300
+Connection ~ 3175 3300
+Wire Wire Line
+	2175 3300 1125 3300
+Connection ~ 2175 3300
+Wire Wire Line
+	4900 3000 4900 3600
+Connection ~ 3850 3600
+Wire Wire Line
+	3850 3600 3850 4000
+Wire Wire Line
+	3850 3000 3850 3600
+$Comp
+L _reviung-kbd:SW_PUSH SW34
+U 1 1 61906250
+P 4150 3600
+F 0 "SW34" H 4150 3855 50  0000 C CNN
+F 1 "9" H 4150 3764 50  0000 C CNN
+F 2 "_reviung-kbd:MXOnly-1U-Hotswap" H 4150 3600 50  0001 C CNN
+F 3 "" H 4150 3600 50  0000 C CNN
+	1    4150 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148W D33
+U 1 1 61906256
+P 4450 3750
+F 0 "D33" V 4496 3670 50  0000 R CNN
+F 1 "1N4148W" V 4405 3670 50  0000 R CNN
+F 2 "_reviung-kbd:D3_SMD_1side" H 4450 3575 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 4450 3750 50  0001 C CNN
+	1    4450 3750
+	0    -1   -1   0   
+$EndComp
+Connection ~ 4900 3600
+Wire Wire Line
+	4900 3600 4900 4200
+Connection ~ 6175 3600
+Wire Wire Line
+	6175 3600 6175 4200
+Connection ~ 8500 3600
+Wire Wire Line
+	8500 3600 8500 4200
+Connection ~ 9500 3600
+Wire Wire Line
+	9500 3600 9500 4825
+Wire Wire Line
+	10100 3900 9100 3900
+Wire Wire Line
+	9100 3900 8050 3900
+Connection ~ 9100 3900
+Wire Wire Line
+	8050 3900 6775 3900
+Connection ~ 8050 3900
+Wire Wire Line
+	6775 3900 5500 3900
+Connection ~ 6775 3900
+Connection ~ 5500 3900
+Wire Wire Line
+	3175 3900 4450 3900
+Connection ~ 4450 3900
+Wire Wire Line
+	4450 3900 5500 3900
+Wire Wire Line
+	3175 3900 2175 3900
+Connection ~ 3175 3900
+Wire Wire Line
+	2175 3900 1125 3900
+Connection ~ 2175 3900
+Connection ~ 6175 4200
+Connection ~ 8500 4200
+Wire Wire Line
+	8500 4200 8500 4825
+Wire Wire Line
+	9100 4500 8600 4500
+Wire Wire Line
+	8600 4500 8600 4575
+Wire Wire Line
+	8600 4575 8050 4575
+Wire Wire Line
+	8050 4575 7100 4575
+Wire Wire Line
+	7100 4575 7100 4500
+Wire Wire Line
+	7100 4500 6775 4500
+Connection ~ 8050 4575
+Wire Wire Line
+	6775 4500 5500 4500
+Connection ~ 6775 4500
+Wire Wire Line
+	5500 4500 4950 4500
+Wire Wire Line
+	4950 4500 4950 4575
+Wire Wire Line
+	4950 4575 4450 4575
+Connection ~ 5500 4500
+Wire Wire Line
+	4450 4575 3350 4575
+Wire Wire Line
+	3350 4575 3350 4500
+Wire Wire Line
+	3350 4500 3175 4500
+Connection ~ 4450 4575
+Wire Wire Line
+	3175 4500 2175 4500
+Connection ~ 3175 4500
+Wire Wire Line
+	2175 4500 1125 4500
+Connection ~ 2175 4500
+Wire Wire Line
+	10100 5125 9100 5125
+Wire Wire Line
+	9100 5125 8050 5125
+Connection ~ 9100 5125
+$Comp
+L _reviung-kbd:SW_PUSH SW55
+U 1 1 61906334
+P 7750 4825
+F 0 "SW55" H 7750 5080 50  0000 C CNN
+F 1 "1.25U" H 7750 4989 50  0000 C CNN
+F 2 "_reviung-kbd:MXOnly-1.25U-Hotswap" H 7750 4825 50  0001 C CNN
+F 3 "" H 7750 4825 50  0000 C CNN
+	1    7750 4825
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148W D50
+U 1 1 6190633A
+P 8050 4975
+F 0 "D50" V 8096 4895 50  0000 R CNN
+F 1 "1N4148W" V 8005 4895 50  0000 R CNN
+F 2 "_reviung-kbd:D3_SMD_1side" H 8050 4800 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 8050 4975 50  0001 C CNN
+	1    8050 4975
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7450 4500 7450 4825
+Wire Wire Line
+	8050 5125 7300 5125
+Wire Wire Line
+	7300 5125 7300 5200
+Wire Wire Line
+	7300 5200 6775 5200
+Connection ~ 8050 5125
+Wire Wire Line
+	6775 5200 6175 5200
+Wire Wire Line
+	6175 5200 6175 5100
+Wire Wire Line
+	6175 5100 5500 5100
+Connection ~ 6775 5200
+Wire Wire Line
+	5500 5100 4450 5100
+Connection ~ 5500 5100
+Wire Wire Line
+	4450 5100 3175 5100
+Connection ~ 4450 5100
+Wire Wire Line
+	3175 5100 2175 5100
+Connection ~ 3175 5100
+Wire Wire Line
+	2175 5100 1125 5100
+Connection ~ 2175 5100
+Text GLabel 1575 950  1    50   Input ~ 0
+col0
+Text GLabel 2575 950  1    50   Input ~ 0
+col1
+Text GLabel 3850 975  1    50   Input ~ 0
+col2
+Text GLabel 4900 975  1    50   Input ~ 0
+col3
+Text GLabel 6175 1000 1    50   Input ~ 0
+col4
+Text GLabel 7450 1025 1    50   Input ~ 0
+col5
+Text GLabel 8500 1000 1    50   Input ~ 0
+col6
+Text GLabel 9500 1000 1    50   Input ~ 0
+col7
+Text GLabel 1125 1500 0    50   Input ~ 0
+row0
+Text GLabel 1125 2100 0    50   Input ~ 0
+row1
+Text GLabel 1125 2775 0    50   Input ~ 0
+row2
+Text GLabel 1125 3300 0    50   Input ~ 0
+row3
+Text GLabel 1125 3900 0    50   Input ~ 0
+row4
+Text GLabel 1125 4500 0    50   Input ~ 0
+row5
+Text GLabel 1125 5100 0    50   Input ~ 0
+row6
+$Comp
+L _reviung-kbd:SW_PUSH RESET1
+U 1 1 61C69BEF
+P 6275 7350
+F 0 "RESET1" H 6275 7605 50  0000 C CNN
+F 1 "SW_PUSH" H 6275 7514 50  0000 C CNN
+F 2 "_reviung-kbd:ResetSW_1side" H 6275 7350 50  0001 C CNN
+F 3 "" H 6275 7350 50  0000 C CNN
+	1    6275 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR09
+U 1 1 61C6BCA3
+P 6575 7350
+F 0 "#PWR09" H 6575 7100 50  0001 C CNN
+F 1 "GND" H 6580 7177 50  0000 C CNN
+F 2 "" H 6575 7350 50  0001 C CNN
+F 3 "" H 6575 7350 50  0001 C CNN
+	1    6575 7350
+	1    0    0    -1  
+$EndComp
+Text GLabel 5975 7350 0    50   Input ~ 0
+reset
+$Comp
+L LED:WS2812B RGB1
+U 1 1 61C6E9B6
+P 5400 5875
+F 0 "RGB1" H 5350 5500 50  0000 L CNN
+F 1 "WS2812B" H 5225 6250 50  0000 L CNN
+F 2 "_reviung-kbd:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm_BigFoot" H 5450 5575 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 5500 5500 50  0001 L TNN
+	1    5400 5875
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB2
+U 1 1 61C71A33
+P 6000 5875
+F 0 "RGB2" H 5950 5500 50  0000 L CNN
+F 1 "WS2812B" H 5825 6250 50  0000 L CNN
+F 2 "_reviung-kbd:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm_BigFoot" H 6050 5575 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 6100 5500 50  0001 L TNN
+	1    6000 5875
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB3
+U 1 1 61C79352
+P 6600 5875
+F 0 "RGB3" H 6550 5500 50  0000 L CNN
+F 1 "WS2812B" H 6425 6250 50  0000 L CNN
+F 2 "_reviung-kbd:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm_BigFoot" H 6650 5575 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 6700 5500 50  0001 L TNN
+	1    6600 5875
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB4
+U 1 1 61C805EB
+P 7200 5875
+F 0 "RGB4" H 7150 5500 50  0000 L CNN
+F 1 "WS2812B" H 7025 6250 50  0000 L CNN
+F 2 "_reviung-kbd:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm_BigFoot" H 7250 5575 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 7300 5500 50  0001 L TNN
+	1    7200 5875
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB5
+U 1 1 61C87969
+P 7800 5875
+F 0 "RGB5" H 7750 5500 50  0000 L CNN
+F 1 "WS2812B" H 7625 6250 50  0000 L CNN
+F 2 "_reviung-kbd:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm_BigFoot" H 7850 5575 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 7900 5500 50  0001 L TNN
+	1    7800 5875
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB6
+U 1 1 61C8EE0C
+P 8400 5875
+F 0 "RGB6" H 8350 5500 50  0000 L CNN
+F 1 "WS2812B" H 8225 6250 50  0000 L CNN
+F 2 "_reviung-kbd:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm_BigFoot" H 8450 5575 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 8500 5500 50  0001 L TNN
+	1    8400 5875
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB7
+U 1 1 61C962AF
+P 9000 5875
+F 0 "RGB7" H 8950 5500 50  0000 L CNN
+F 1 "WS2812B" H 8825 6250 50  0000 L CNN
+F 2 "_reviung-kbd:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm_BigFoot" H 9050 5575 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 9100 5500 50  0001 L TNN
+	1    9000 5875
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB8
+U 1 1 61C9D841
+P 9600 5875
+F 0 "RGB8" H 9550 5500 50  0000 L CNN
+F 1 "WS2812B" H 9425 6250 50  0000 L CNN
+F 2 "_reviung-kbd:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm_BigFoot" H 9650 5575 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 9700 5500 50  0001 L TNN
+	1    9600 5875
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB9
+U 1 1 61CA4DBA
+P 10200 5875
+F 0 "RGB9" H 10150 5500 50  0000 L CNN
+F 1 "WS2812B" H 10025 6250 50  0000 L CNN
+F 2 "_reviung-kbd:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm_BigFoot" H 10250 5575 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 10300 5500 50  0001 L TNN
+	1    10200 5875
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB10
+U 1 1 61CAC195
+P 10800 5875
+F 0 "RGB10" H 10750 5500 50  0000 L CNN
+F 1 "WS2812B" H 10625 6250 50  0000 L CNN
+F 2 "_reviung-kbd:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm_BigFoot" H 10850 5575 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 10900 5500 50  0001 L TNN
+	1    10800 5875
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR04
+U 1 1 61CB3E6D
+P 5100 5575
+F 0 "#PWR04" H 5100 5425 50  0001 C CNN
+F 1 "VCC" H 5115 5748 50  0000 C CNN
+F 2 "" H 5100 5575 50  0001 C CNN
+F 3 "" H 5100 5575 50  0001 C CNN
+	1    5100 5575
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR07
+U 1 1 61CB4BF1
+P 5100 6175
+F 0 "#PWR07" H 5100 5925 50  0001 C CNN
+F 1 "GND" H 5105 6002 50  0000 C CNN
+F 2 "" H 5100 6175 50  0001 C CNN
+F 3 "" H 5100 6175 50  0001 C CNN
+	1    5100 6175
+	1    0    0    -1  
+$EndComp
+Text GLabel 5100 5875 0    50   Input ~ 0
+LED
+NoConn ~ 11100 5875
+Wire Wire Line
+	5100 5575 5400 5575
+Wire Wire Line
+	5400 5575 6000 5575
+Connection ~ 5400 5575
+Wire Wire Line
+	6000 5575 6600 5575
+Connection ~ 6000 5575
+Wire Wire Line
+	6600 5575 7200 5575
+Connection ~ 6600 5575
+Wire Wire Line
+	7200 5575 7800 5575
+Connection ~ 7200 5575
+Wire Wire Line
+	7800 5575 8400 5575
+Connection ~ 7800 5575
+Wire Wire Line
+	8400 5575 9000 5575
+Connection ~ 8400 5575
+Wire Wire Line
+	9000 5575 9600 5575
+Connection ~ 9000 5575
+Wire Wire Line
+	9600 5575 10200 5575
+Connection ~ 9600 5575
+Wire Wire Line
+	10200 5575 10800 5575
+Connection ~ 10200 5575
+Wire Wire Line
+	10800 6175 10200 6175
+Wire Wire Line
+	10200 6175 9600 6175
+Connection ~ 10200 6175
+Wire Wire Line
+	9600 6175 9000 6175
+Connection ~ 9600 6175
+Wire Wire Line
+	9000 6175 8400 6175
+Connection ~ 9000 6175
+Wire Wire Line
+	8400 6175 7800 6175
+Connection ~ 8400 6175
+Wire Wire Line
+	7800 6175 7200 6175
+Connection ~ 7800 6175
+Wire Wire Line
+	7200 6175 6600 6175
+Connection ~ 7200 6175
+Wire Wire Line
+	6600 6175 6000 6175
+Connection ~ 6600 6175
+Wire Wire Line
+	6000 6175 5400 6175
+Connection ~ 6000 6175
+Wire Wire Line
+	5400 6175 5100 6175
+Connection ~ 5400 6175
+NoConn ~ 1075 6075
+NoConn ~ 1075 6375
+Wire Wire Line
+	7825 4200 7825 4500
+Connection ~ 7825 4200
+Wire Wire Line
+	7825 4000 7825 4200
+Wire Wire Line
+	7775 4200 7775 4275
+Wire Wire Line
+	7775 4275 8050 4275
+Connection ~ 8050 4275
+Wire Wire Line
+	8050 4275 8425 4275
+Wire Wire Line
+	6175 4200 6175 4625
+Wire Wire Line
+	5900 4625 6175 4625
+Wire Wire Line
+	6175 4625 6550 4625
+Connection ~ 6175 4625
+Wire Wire Line
+	8425 4200 8425 4275
+Wire Wire Line
+	7450 3000 7450 3600
+Wire Wire Line
+	7175 4000 7450 4000
+Wire Wire Line
+	7450 3600 7450 4000
+Connection ~ 7450 3600
+Connection ~ 7450 4000
+Wire Wire Line
+	7450 4000 7825 4000
+Wire Wire Line
+	7450 1025 7450 1200
+Connection ~ 7450 1200
+$EndSCHEMATC
