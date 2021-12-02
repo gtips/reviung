@@ -1,7 +1,7 @@
 # REVIUNG53  
-![REVIUNG53](https://github.com/gtips/reviung/blob/master/reviung53/image/REVIUNG53-04.jpg)  
+![REVIUNG53](https://github.com/gtips/reviung/blob/master/reviung53/image/reviung53-04.jpg)  
   
-![REVIUNG53](https://github.com/gtips/reviung/blob/master/reviung53/image/REVIUNG53-05.jpg)  
+![REVIUNG53](https://github.com/gtips/reviung/blob/master/reviung53/image/reviung53-05.jpg)  
 
 The REVIUNG53 is 53-key keyboard.  
 
@@ -37,8 +37,8 @@ M2 screw 12mm --- 10 pcs
 [Firmware](https://github.com/qmk/qmk_firmware/tree/master/keyboards/reviung53)  
 [Build guide](https://reviung.com/build-guide/)  
   
-![REVIUNG53](https://github.com/gtips/reviung/blob/master/reviung53/image/REVIUNG53-02.jpg)  
+![REVIUNG53](https://github.com/gtips/reviung/blob/master/reviung53/image/reviung53-02.jpg)  
   
- ![REVIUNG53](https://github.com/gtips/reviung/blob/master/reviung53/image/REVIUNG53-03.jpg)  
+ ![REVIUNG53](https://github.com/gtips/reviung/blob/master/reviung53/image/reviung53-03.jpg)  
    
-![REVIUNG53](https://github.com/gtips/reviung/blob/master/reviung53/image/REVIUNG53-01.jpg)  
+![REVIUNG53](https://github.com/gtips/reviung/blob/master/reviung53/image/reviung53-01.jpg)  

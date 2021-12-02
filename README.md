@@ -94,6 +94,16 @@ The REVIUNG33 is 33-key ortholinear keyboard.
 <br>
 <br>
 
+## [REVIUNG53](https://github.com/gtips/reviung/tree/master/reviung53)  
+[![REVIUNG53](https://github.com/gtips/reviung/blob/master/reviung53/image/reviung53-04.jpg)](https://github.com/gtips/reviung/tree/master/reviung53)  
+
+The REVIUNG53 is 53-key keyboard.  
+
+[Firmware](https://github.com/qmk/qmk_firmware/tree/master/keyboards/reviung53)  
+
+<br>
+<br>
+
 ## [REVIUNG61](https://github.com/gtips/reviung/tree/master/reviung61)  
 [![REVIUNG61](https://github.com/gtips/reviung/blob/master/reviung61/image/reviung61-pcb.jpg)](https://github.com/gtips/reviung/tree/master/reviung61)  
 
