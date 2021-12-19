@@ -1,5 +1,5 @@
 # REVIUNG39 Mk-II  
-![REVIUNG39 Mk-II](https://github.com/gtips/reviung/blob/master/reviung39Mk-II/image/reviung39MkII-01.jpg)  
+![REVIUNG39 Mk-II](https://github.com/gtips/reviung/blob/master/reviung39_Mk-II/image/reviung39MkII-01.jpg)  
 
 The REVIUNG39 Mk-II is 39-key column staggered keyboard.  
 
@@ -37,5 +37,5 @@ The REVIUNG39 Mk-II is 39-key column staggered keyboard.
 [Firmware](https://github.com/qmk/qmk_firmware/tree/master/keyboards/reviung39)  
 [Build guide](https://reviung.com/build-guide/583/)  
   
-![REVIUNG39 Mk-II](https://github.com/gtips/reviung/blob/master/reviung39Mk-II/image/reviung39MkII-02.jpg)  
+![REVIUNG39 Mk-II](https://github.com/gtips/reviung/blob/master/reviung39_Mk-II/image/reviung39MkII-0.jpg)  
   
