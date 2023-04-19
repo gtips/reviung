@@ -35,7 +35,7 @@ The REVIUNG34 is 34-key (or 33-key) column staggered keyboard.
 | 0 (or 1) | MX compatible Keycap (2U) |  |
 | 1 | MicroUSB cable |  |
   
-[Firmware](https://github.com/qmk/qmk_firmware/tree/master/keyboards/reviung34)  
+[Firmware](https://github.com/qmk/qmk_firmware/tree/master/keyboards/reviung/reviung34)  
 [Build guide](https://reviung.com/build-guide/)  
   
 ![REVIUNG34](https://github.com/gtips/reviung/blob/master/reviung34/image/reviung34-03.jpg)  

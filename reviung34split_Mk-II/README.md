@@ -28,7 +28,7 @@ Choose "1u key x3" or "1u and 2u key" for the left thumb key.
 | 1 | MicroUSB cable |  |
 | 1 | Ethernet cable |  |
   
-[Firmware](https://github.com/qmk/qmk_firmware/tree/master/keyboards/reviung34)  
+[Firmware](https://github.com/qmk/qmk_firmware/tree/master/keyboards/reviung/reviung34)  
 [Build guide](https://reviung.com/build-guide/656/)  
   
 ![REVIUNG34 Mk-II](https://github.com/gtips/reviung/blob/master/reviung34split_Mk-II/image/reviung34mkII-02.jpg)  

@@ -27,3 +27,4 @@ Standard ANSI 60% keyboard. And compatible with MX and ALPS.
 | 1 | SW57 | MX or ALPS Switche | 6.25U |
 
   
+[Firmware](https://github.com/qmk/qmk_firmware/tree/master/keyboards/reviung/reviung61)  

@@ -32,7 +32,7 @@ Keycap (2.25U or 2U) --- 1
 Keycap (1.25U or 1U) --- 4  
 MicroUSB cable --- 1  
   
-[Firmware](https://github.com/qmk/qmk_firmware/tree/master/keyboards/reviung41)  
+[Firmware](https://github.com/qmk/qmk_firmware/tree/master/keyboards/reviung/reviung41)  
 [Build guide](https://reviung.com/build-guide/391/)  
   
 ![REVIUNG41](https://github.com/gtips/reviung/blob/master/reviung41/image/REVIUNG41B-2.jpg)  

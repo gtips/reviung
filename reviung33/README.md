@@ -44,7 +44,7 @@ The REVIUNG33 is 33-key ortholinear keyboard.
 | 32 | Keycap (1U) | 
 | 1 | Keycap (6.25U) |   
   
-[Firmware](https://github.com/qmk/qmk_firmware/tree/master/keyboards/reviung33)  
+[Firmware](https://github.com/qmk/qmk_firmware/tree/master/keyboards/reviung/reviung33)  
 [Build guide](https://reviung.com/)  
   
 ![REVIUNG33](https://github.com/gtips/reviung/blob/master/reviung33/image/reviung33-02.jpg)  

@@ -28,7 +28,7 @@ The REVIUNG5 is 5-key (or 4-key + Rotary Encoder) macropad.
 | 1 (or 0) | Rotary Encoder | Alps EC12 series compatible | 
 | 1 | MicroUSB cable |  |
   
-[Firmware](https://github.com/qmk/qmk_firmware/tree/master/keyboards/reviung5)  
+[Firmware](https://github.com/qmk/qmk_firmware/tree/master/keyboards/reviung/reviung5)  
 [Build guide](https://reviung.com/build-guide/)  
   
 ![REVIUNG5](https://github.com/gtips/reviung/blob/master/reviung5/image/reviung5-2.jpg)  

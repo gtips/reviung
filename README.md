@@ -5,7 +5,7 @@
 
 The REVIUNG41 is 41-key column staggered keyboard.  
 
-[Firmware](https://github.com/qmk/qmk_firmware/tree/master/keyboards/reviung41)  
+[Firmware](https://github.com/qmk/qmk_firmware/tree/master/keyboards/reviung/reviung41)  
 [Build guide](https://reviung.com/build-guide/391/)  
   
 <br>
@@ -16,7 +16,7 @@ The REVIUNG39 is 39-key column staggered keyboard.
 
 Soldering is divided into through-hole mounting version and surface mounting (SMD) version so that the soldering difficulty can be selected.  
 
-- EVIUNG39 Mk-II and REVIUNG39 is regular version (SMD)  
+- REVIUNG39 Mk-II and REVIUNG39 is regular version (SMD)  
 - REVIUNG39S is simple version (through-hole)  
 
 [REVIUNG39 Mk-II ](https://github.com/gtips/reviung/tree/master/reviung39Mk-II)   
@@ -30,7 +30,7 @@ Soldering is divided into through-hole mounting version and surface mounting (SM
 <br>
 
 [REVIUNG39 Build guide](https://reviung.com/build-guide/108/)  
-[Firmware](https://github.com/qmk/qmk_firmware/tree/master/keyboards/reviung39)
+[Firmware](https://github.com/qmk/qmk_firmware/tree/master/keyboards/reviung/reviung39)
   
 <br>
 <br>
@@ -45,7 +45,7 @@ The REVIUNG34 is 34-key (or33-key) column staggered keyboard.
 <br>
 
 [REVIUNG34 Build guide](https://reviung.com/build-guide/724/)  
-[Firmware](https://github.com/qmk/qmk_firmware/tree/master/keyboards/reviung34)
+[Firmware](https://github.com/qmk/qmk_firmware/tree/master/keyboards/reviung/reviung34)
   
 <br>
 <br>
@@ -59,7 +59,7 @@ The REVIUNG5 is 5-key (or 4-key + Rotary Encoder) macropad.
 <br>
 
 [REVIUNG5 Build guide](https://reviung.com/build-guide/)  
-[Firmware](https://github.com/qmk/qmk_firmware/tree/master/keyboards/reviung5)
+[Firmware](https://github.com/qmk/qmk_firmware/tree/master/keyboards/reviung/reviung5)
   
 <br>
 <br>
@@ -78,7 +78,7 @@ Use a LAN cable to connect the left and right keyboards.
 [REVIUNG34 SPLIT](https://github.com/gtips/reviung/tree/master/reviung34split)  
 [![REVIUNG34 SPLIT](https://github.com/gtips/reviung/blob/master/reviung34split/image/REVIUNG34-1.jpg)](https://github.com/gtips/reviung/tree/master/reviung34split)  
   
-[Firmware](https://github.com/qmk/qmk_firmware/tree/master/keyboards/reviung34)  
+[Firmware](https://github.com/qmk/qmk_firmware/tree/master/keyboards/reviung/reviung34)  
 [REVIUNG34 SPLIT Build guide](https://reviung.com/build-guide/278/)  
 
 <br>
@@ -89,7 +89,7 @@ Use a LAN cable to connect the left and right keyboards.
 
 The REVIUNG33 is 33-key ortholinear keyboard.  
 
-[Firmware](https://github.com/qmk/qmk_firmware/tree/master/keyboards/reviung33)  
+[Firmware](https://github.com/qmk/qmk_firmware/tree/master/keyboards/reviung/reviung33)  
 
 <br>
 <br>
@@ -99,7 +99,7 @@ The REVIUNG33 is 33-key ortholinear keyboard.
 
 The REVIUNG53 is 53-key keyboard.  
 
-[Firmware](https://github.com/qmk/qmk_firmware/tree/master/keyboards/reviung53)  
+[Firmware](https://github.com/qmk/qmk_firmware/tree/master/keyboards/reviung/reviung53)  
 
 <br>
 <br>
@@ -109,7 +109,7 @@ The REVIUNG53 is 53-key keyboard.
 
 Standard ANSI 60% keyboard. And compatible with MX and ALPS.  
 
-[Firmware](https://github.com/qmk/qmk_firmware/tree/master/keyboards/reviung61)  
+[Firmware](https://github.com/qmk/qmk_firmware/tree/master/keyboards/reviung/reviung61)  
 
 <br>
 <br>
