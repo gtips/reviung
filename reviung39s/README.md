@@ -30,7 +30,7 @@ MicroUSB cable --- 1
 option  
 LED Strip(tape) for Underglow (with 6 WS2812B)  
   
-[Firmware](https://github.com/qmk/qmk_firmware/tree/master/keyboards/reviung39)  
+[Firmware](https://github.com/qmk/qmk_firmware/tree/master/keyboards/reviung/reviung39)  
 [Build guide](https://reviung.com/build-guide/112/)  
   
 ![REVIUNG39](https://github.com/gtips/reviung/blob/master/reviung39s/image/REVIUNG39s-5.jpg)  
