@@ -99,7 +99,7 @@ The REVIUNG33 is 33-key ortholinear keyboard.
 
 The REVIUNG53 is 53-key keyboard.  
 
-[Firmware](https://github.com/qmk/qmk_firmware/tree/master/keyboards/reviung53)  
+[Firmware](https://github.com/qmk/qmk_firmware/tree/master/keyboards/reviung/reviung53)  
 
 <br>
 <br>
