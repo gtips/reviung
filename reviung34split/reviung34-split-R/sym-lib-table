@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "reviung34-split-R-rescue")(type "Legacy")(uri "${KIPRJMOD}/reviung34-split-R-rescue.lib")(options "")(descr ""))
+)
