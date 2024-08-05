@@ -34,7 +34,7 @@ Middle acrylic plate (bottom) --- 1
 Silicon sheet --- 1 sheet  
 M2 screw 12mm --- 10 pcs  
   
-[Firmware](https://github.com/qmk/qmk_firmware/tree/master/keyboards/reviung53)  
+[Firmware](https://github.com/qmk/qmk_firmware/tree/master/keyboards/reviung/reviung53)  
 [Build guide](https://reviung.com/build-guide/)  
   
 ![REVIUNG53](https://github.com/gtips/reviung/blob/master/reviung53/image/reviung53-02.jpg)  
