@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "PMExtentionBoard")(type "KiCad")(uri "${KIPRJMOD}/PMExtentionBoard.kicad_sym")(options "")(descr ""))
+)
