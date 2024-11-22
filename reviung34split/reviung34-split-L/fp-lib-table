@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "Connector_TLZWLA")(type "KiCad")(uri "/home/yoda/Документы/kicad.org/gtips/reviung/reviung34split/Connector_TLZWLA.pretty")(options "")(descr ""))
+  (lib (name "Connector_NONAME")(type "KiCad")(uri "/home/yoda/Документы/kicad.org/gtips/reviung/reviung34split/Connector_NONAME.pretty")(options "")(descr ""))
+)
